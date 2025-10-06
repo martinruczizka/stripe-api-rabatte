@@ -1,0 +1,1 @@
+node --env-file=.env src/createSecondPrices.js

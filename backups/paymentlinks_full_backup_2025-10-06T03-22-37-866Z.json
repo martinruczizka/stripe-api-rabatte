@@ -1,0 +1,6885 @@
+[
+  {
+    "id": "plink_1SF4a1AYh6QHq4iYAb0E32Tp",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4G3AYh6QHq4iYnAS5TpRp"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/28E00i2Lk4PH8lB7K30x223"
+  },
+  {
+    "id": "plink_1SF4ZzAYh6QHq4iYv1Iza4R8",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}&gclid={GCLID}&utm_source={SOURCE}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4G4AYh6QHq4iYzDGBNZ7t"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/28E9ASgCa0zrcBRc0j0x222"
+  },
+  {
+    "id": "plink_1SF4ZyAYh6QHq4iYXJR95OLg",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id=%7BCHECKOUT_SESSION_ID%7D"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4G6AYh6QHq4iYoox9LSeK"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/00w8wOdpYaa18lB4xR0x221"
+  },
+  {
+    "id": "plink_1SF4ZxAYh6QHq4iYFhoKQbsz",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4G7AYh6QHq4iYeqgXtva4"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/5kQ5kCdpYfulbxN6FZ0x220"
+  },
+  {
+    "id": "plink_1SF4ZvAYh6QHq4iYNBtB8xB3",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4G8AYh6QHq4iYl1hH3eCC"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/8x24gy5Xw2HzatJ4xR0x21Z"
+  },
+  {
+    "id": "plink_1SF4ZuAYh6QHq4iYBuEfYhCx",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4G9AYh6QHq4iYSmMWcbmk"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/4gM9ASadMbe59pF5BV0x21Y"
+  },
+  {
+    "id": "plink_1SF4ZtAYh6QHq4iYnTdeD3Wx",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GBAYh6QHq4iYLUUbFHzg"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/bJebJ085E4PHatJ6FZ0x21X"
+  },
+  {
+    "id": "plink_1SF4ZsAYh6QHq4iYZ62AzmTd",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GCAYh6QHq4iYNFd9AUQQ"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/00w3cu1Hg4PH45l3tN0x21W"
+  },
+  {
+    "id": "plink_1SF4ZrAYh6QHq4iYKnUATlIw",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GDAYh6QHq4iYujYcSvQ9"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/eVqaEWfy6gypfO36FZ0x21V"
+  },
+  {
+    "id": "plink_1SF4ZpAYh6QHq4iYI6ji0k26",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GFAYh6QHq4iYTmi5Z5Bt"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/14AcN4gCadmd8lBggz0x21U"
+  },
+  {
+    "id": "plink_1SF4ZoAYh6QHq4iYRq3Qy7lp",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GGAYh6QHq4iYrSTllAYh"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/8x2bJ0dpYgyp7hx4xR0x21T"
+  },
+  {
+    "id": "plink_1SF4ZnAYh6QHq4iYS7Tei82N",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GHAYh6QHq4iYRuAcPbnu"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/28EbJ0gCaci9atJ0hB0x21S"
+  },
+  {
+    "id": "plink_1SF4ZlAYh6QHq4iYzM1L0HBK",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GIAYh6QHq4iYKCIDsm3v"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/5kQaEWadM81T59p9Sb0x21R"
+  },
+  {
+    "id": "plink_1SF4ZkAYh6QHq4iY8XWlXruw",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GKAYh6QHq4iYoLzZJqK2"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/bJefZgadM0zreJZe8r0x21Q"
+  },
+  {
+    "id": "plink_1SF4ZjAYh6QHq4iYBSIvxvoa",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GLAYh6QHq4iYlZvTenar"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/aFa14madMaa1fO30hB0x21P"
+  },
+  {
+    "id": "plink_1SF4ZiAYh6QHq4iY3PpPI2vZ",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GMAYh6QHq4iYvDW4aMFN"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/7sY28q85E1Dv59p0hB0x21O"
+  },
+  {
+    "id": "plink_1SF4ZgAYh6QHq4iYrL6mNTeo",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GNAYh6QHq4iYeQAPv9kE"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/28EbJ0gCa2Hz8lB5BV0x21N"
+  },
+  {
+    "id": "plink_1SF4ZfAYh6QHq4iY426l4tyC",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GPAYh6QHq4iYqbEs9YUw"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/00w4gygCa1DvdFVaWf0x21M"
+  },
+  {
+    "id": "plink_1SF4ZeAYh6QHq4iYVZl7DPi9",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GQAYh6QHq4iY9Ciiubkf"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/4gMfZgbhQ2Hz45l0hB0x21L"
+  },
+  {
+    "id": "plink_1SF4ZdAYh6QHq4iYXWIcXFYf",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GRAYh6QHq4iYtTt7Vk5x"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/fZu14m0Dc4PH45l8O70x21K"
+  },
+  {
+    "id": "plink_1SF4ZbAYh6QHq4iYuSNZEUQv",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GTAYh6QHq4iY0rncw33g"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/aFa9AS2Lk81TfO34xR0x21J"
+  },
+  {
+    "id": "plink_1SF4ZaAYh6QHq4iYrGNG37ov",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GUAYh6QHq4iY1wuUyyOQ"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/7sYeVcgCa0zr8lBd4n0x21I"
+  },
+  {
+    "id": "plink_1SF4ZZAYh6QHq4iYgxgiQDLs",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GVAYh6QHq4iYKNx1dyUO"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/9B63cu1Hg95XeJZe8r0x21H"
+  },
+  {
+    "id": "plink_1SF4ZYAYh6QHq4iYKpW8CLHz",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GXAYh6QHq4iYhnI9bl2n"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/eVqcN4dpY95X0T97K30x21G"
+  },
+  {
+    "id": "plink_1SF4ZWAYh6QHq4iYAIjivhBN",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GYAYh6QHq4iYO8fblHOH"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/00wcN471AfulbxN5BV0x21F"
+  },
+  {
+    "id": "plink_1SF4ZVAYh6QHq4iYr1OWaHTr",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GZAYh6QHq4iYmbyAdXjW"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/3cI6oG3Po2HzcBRfcv0x21E"
+  },
+  {
+    "id": "plink_1SF4ZUAYh6QHq4iY1KJ3qbfk",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GaAYh6QHq4iY9tgTSNy6"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/6oUdR8clU5TL8lB2pJ0x21D"
+  },
+  {
+    "id": "plink_1SF4ZTAYh6QHq4iYYDYRzAGz",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GcAYh6QHq4iY3jB9eTHL"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/eVq9ASeu21DvgS77K30x21C"
+  },
+  {
+    "id": "plink_1SF4ZRAYh6QHq4iYzqD2IgDz",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GdAYh6QHq4iYXv4xBPHz"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/aFa8wObhQ6XPbxN0hB0x21B"
+  },
+  {
+    "id": "plink_1SF4ZQAYh6QHq4iYL9vWwhit",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GeAYh6QHq4iYmQ9agYK3"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/6oUfZggCafulfO36FZ0x21A"
+  },
+  {
+    "id": "plink_1SF4ZPAYh6QHq4iYDS8UCsM2",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF4GgAYh6QHq4iYKhRIkWGs"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/5kQ6oGdpYful0T98O70x21z"
+  },
+  {
+    "id": "plink_1SF4GgAYh6QHq4iYKhRIkWGs",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF46iAYh6QHq4iY41y3R2co"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/bJebJ0dpYaa131h2pJ0x21y"
+  },
+  {
+    "id": "plink_1SF4GeAYh6QHq4iYmQ9agYK3",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF46kAYh6QHq4iYVx7uD5gk"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/aFa5kC3PodmdcBRd4n0x21x"
+  },
+  {
+    "id": "plink_1SF4GdAYh6QHq4iYXv4xBPHz",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF46lAYh6QHq4iY6sd4Tz5m"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/fZu9AS5Xwful59p9Sb0x21w"
+  },
+  {
+    "id": "plink_1SF4GcAYh6QHq4iY3jB9eTHL",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF46mAYh6QHq4iY7HAdzcPY"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/14A7sK3PofulcBRd4n0x21v"
+  },
+  {
+    "id": "plink_1SF4GaAYh6QHq4iY9tgTSNy6",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF46oAYh6QHq4iYwN7mSkT9"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/bJe7sK99I2HzcBR2pJ0x21u"
+  },
+  {
+    "id": "plink_1SF4GZAYh6QHq4iYmbyAdXjW",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF46pAYh6QHq4iYyTbmBriE"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/3cI6oGdpYeqh45l3tN0x21t"
+  },
+  {
+    "id": "plink_1SF4GYAYh6QHq4iYO8fblHOH",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF46qAYh6QHq4iYivfSvh7f"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/8x214m4Ts6XPdFVggz0x21s"
+  },
+  {
+    "id": "plink_1SF4GXAYh6QHq4iYhnI9bl2n",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF46sAYh6QHq4iYoCdZlDuk"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/3cIfZgclUbe5dFV3tN0x21r"
+  },
+  {
+    "id": "plink_1SF4GVAYh6QHq4iYKNx1dyUO",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF46tAYh6QHq4iYu7068sm1"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/00w28qgCadmdcBR4xR0x21q"
+  },
+  {
+    "id": "plink_1SF4GUAYh6QHq4iY1wuUyyOQ",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF46uAYh6QHq4iYEkTn2EIt"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/bJe7sK85E81T0T9fcv0x21p"
+  },
+  {
+    "id": "plink_1SF4GTAYh6QHq4iY0rncw33g",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF46vAYh6QHq4iY29HwRYyO"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/00w14m99I4PH1Xdfcv0x21o"
+  },
+  {
+    "id": "plink_1SF4GRAYh6QHq4iYtTt7Vk5x",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF46xAYh6QHq4iY198GPKki"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/5kQbJ05Xwdmd45l8O70x21n"
+  },
+  {
+    "id": "plink_1SF4GQAYh6QHq4iY9Ciiubkf",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF46yAYh6QHq4iYrr6XzYCY"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/5kQeVc85E1Dv59pc0j0x21m"
+  },
+  {
+    "id": "plink_1SF4GPAYh6QHq4iYqbEs9YUw",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF46zAYh6QHq4iYyGQQAfOR"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/7sYfZgdpYfulatJ2pJ0x21l"
+  },
+  {
+    "id": "plink_1SF4GNAYh6QHq4iYeQAPv9kE",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF471AYh6QHq4iYUjhcHxAj"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/6oUeVc5Xw81T9pF6FZ0x21k"
+  },
+  {
+    "id": "plink_1SF4GMAYh6QHq4iYvDW4aMFN",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF472AYh6QHq4iYM6MTCdtN"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/cNidR8adM2Hz1Xd9Sb0x21j"
+  },
+  {
+    "id": "plink_1SF4GLAYh6QHq4iYlZvTenar",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF473AYh6QHq4iYddUUUdbg"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/6oU4gy3Pobe5eJZd4n0x21i"
+  },
+  {
+    "id": "plink_1SF4GKAYh6QHq4iYoLzZJqK2",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF474AYh6QHq4iYw1J6YOGX"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/dRm28q85E2HzbxN3tN0x21h"
+  },
+  {
+    "id": "plink_1SF4GIAYh6QHq4iYKCIDsm3v",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF476AYh6QHq4iY5RMtSlzl"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/8x29AS5Xw4PHatJggz0x21g"
+  },
+  {
+    "id": "plink_1SF4GHAYh6QHq4iYRuAcPbnu",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF477AYh6QHq4iY7KoppxgN"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/eVq5kCfy64PH1Xdc0j0x21f"
+  },
+  {
+    "id": "plink_1SF4GGAYh6QHq4iYrSTllAYh",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF478AYh6QHq4iYsQxi5Zcd"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/eVq3cu3Po5TL6dt7K30x21e"
+  },
+  {
+    "id": "plink_1SF4GFAYh6QHq4iYTmi5Z5Bt",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF47AAYh6QHq4iYA2uFKp02"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/28EbJ0gCaful8lB3tN0x21d"
+  },
+  {
+    "id": "plink_1SF4GDAYh6QHq4iYujYcSvQ9",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF47BAYh6QHq4iYvmoO106i"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/fZu7sK5Xw6XP8lB0hB0x21c"
+  },
+  {
+    "id": "plink_1SF4GCAYh6QHq4iYNFd9AUQQ",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF47CAYh6QHq4iYIw2rfshA"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/8x26oGeu25TLeJZ6FZ0x21b"
+  },
+  {
+    "id": "plink_1SF4GBAYh6QHq4iYLUUbFHzg",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF47DAYh6QHq4iYRyGtId1X"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/eVq4gybhQ6XP7hxaWf0x21a"
+  },
+  {
+    "id": "plink_1SF4G9AYh6QHq4iYSmMWcbmk",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF47FAYh6QHq4iYM3YbZiWC"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/dRmaEWeu281TfO3c0j0x219"
+  },
+  {
+    "id": "plink_1SF4G8AYh6QHq4iYl1hH3eCC",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF47GAYh6QHq4iYvZY3xHLC"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/00w8wO85E81T1Xd0hB0x218"
+  },
+  {
+    "id": "plink_1SF4G7AYh6QHq4iYeqgXtva4",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF47IAYh6QHq4iYXF4BUFId"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/9B65kCclUaa16dtggz0x217"
+  },
+  {
+    "id": "plink_1SF4G6AYh6QHq4iYoox9LSeK",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id=%7BCHECKOUT_SESSION_ID%7D"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF47JAYh6QHq4iYoA5GTv3C"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/14A28qdpYaa18lB0hB0x216"
+  },
+  {
+    "id": "plink_1SF4G4AYh6QHq4iYzDGBNZ7t",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}&gclid={GCLID}&utm_source={SOURCE}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF47KAYh6QHq4iYB1qfITo1"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/8x214mfy6be50T91lF0x215"
+  },
+  {
+    "id": "plink_1SF4G3AYh6QHq4iYnAS5TpRp",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF47LAYh6QHq4iY0l9RJrEw"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/aFa3cudpY5TL59p8O70x214"
+  },
+  {
+    "id": "plink_1SF47LAYh6QHq4iY0l9RJrEw",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SDt2pAYh6QHq4iYF87ocPeg"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/28E28q5Xw2HzfO3fcv0x213"
+  },
+  {
+    "id": "plink_1SF47KAYh6QHq4iYB1qfITo1",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}&gclid={GCLID}&utm_source={SOURCE}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SDtWUAYh6QHq4iYPQc1PWM3"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/5kQ6oGdpYeqh9pF0hB0x212"
+  },
+  {
+    "id": "plink_1SF47JAYh6QHq4iYoA5GTv3C",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id=%7BCHECKOUT_SESSION_ID%7D"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEtdZAYh6QHq4iYNPgJRR0F"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/dRmdR84Ts4PHdFV2pJ0x211"
+  },
+  {
+    "id": "plink_1SF47IAYh6QHq4iYXF4BUFId",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEtgkAYh6QHq4iYrfbqWF0f"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/cNi28q85EfuleJZ0hB0x210"
+  },
+  {
+    "id": "plink_1SF47GAYh6QHq4iYvZY3xHLC",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEu2AAYh6QHq4iY2BH0YaGy"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/4gMeVcbhQ5TL31h8O70x20Z"
+  },
+  {
+    "id": "plink_1SF47FAYh6QHq4iYM3YbZiWC",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEu5IAYh6QHq4iYzvXFkdUz"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/8x29AS71AfulgS73tN0x20Y"
+  },
+  {
+    "id": "plink_1SF47DAYh6QHq4iYRyGtId1X",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEu6oAYh6QHq4iYiREfETSH"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/3cI6oGeu23LDdFV4xR0x20X"
+  },
+  {
+    "id": "plink_1SF47CAYh6QHq4iYIw2rfshA",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEu8bAYh6QHq4iYYzBV5pem"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/8x2bJ0clUci9eJZ7K30x20W"
+  },
+  {
+    "id": "plink_1SF47BAYh6QHq4iYvmoO106i",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEuAQAYh6QHq4iYI2CvkPEQ"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/8x228q71AfulcBRc0j0x20V"
+  },
+  {
+    "id": "plink_1SF47AAYh6QHq4iYA2uFKp02",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEuCKAYh6QHq4iYAxYO8nM1"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/bJe7sK5Xwaa159p6FZ0x20U"
+  },
+  {
+    "id": "plink_1SF478AYh6QHq4iYsQxi5Zcd",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEuGAAYh6QHq4iYF8xznOJf"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/28E28qfy6aa11XdaWf0x20T"
+  },
+  {
+    "id": "plink_1SF477AYh6QHq4iY7KoppxgN",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEuIhAYh6QHq4iY97jj2lg9"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/7sY14m5Xwci91XdaWf0x20S"
+  },
+  {
+    "id": "plink_1SF476AYh6QHq4iY5RMtSlzl",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEuK8AYh6QHq4iY9wW6Toql"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/00w14madMci959p0hB0x20R"
+  },
+  {
+    "id": "plink_1SF474AYh6QHq4iYw1J6YOGX",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEuLPAYh6QHq4iY52f99XJ5"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/00waEWeu2be59pFe8r0x20Q"
+  },
+  {
+    "id": "plink_1SF473AYh6QHq4iYddUUUdbg",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEuMyAYh6QHq4iYmaoAUDRf"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/3cI14m1Hg5TLcBRd4n0x20P"
+  },
+  {
+    "id": "plink_1SF472AYh6QHq4iYM6MTCdtN",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEuONAYh6QHq4iYInBSyOno"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/eVq00igCabe5atJggz0x20O"
+  },
+  {
+    "id": "plink_1SF471AYh6QHq4iYUjhcHxAj",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEuVGAYh6QHq4iYtYm7rg9t"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/9B6cN43PoeqheJZggz0x20N"
+  },
+  {
+    "id": "plink_1SF46zAYh6QHq4iYyGQQAfOR",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEudOAYh6QHq4iYgWclHe0j"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/bJecN42Lkful45le8r0x20M"
+  },
+  {
+    "id": "plink_1SF46yAYh6QHq4iYrr6XzYCY",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEuhCAYh6QHq4iYS0daUqx3"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/bJe14m5XweqheJZfcv0x20L"
+  },
+  {
+    "id": "plink_1SF46xAYh6QHq4iY198GPKki",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEumAAYh6QHq4iYRdPG43N9"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/eVq8wO71AfuldFV7K30x20K"
+  },
+  {
+    "id": "plink_1SF46vAYh6QHq4iY29HwRYyO",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEuoDAYh6QHq4iYz4i71G3d"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/8x26oG3Poaa1dFV7K30x20J"
+  },
+  {
+    "id": "plink_1SF46uAYh6QHq4iYEkTn2EIt",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEup4AYh6QHq4iYKW2zP5QR"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/cNidR899I4PH0T93tN0x20I"
+  },
+  {
+    "id": "plink_1SF46tAYh6QHq4iYu7068sm1",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEuqHAYh6QHq4iYsOMXYwLO"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/3cI28q2Lkeqh31hggz0x20H"
+  },
+  {
+    "id": "plink_1SF46sAYh6QHq4iYoCdZlDuk",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEurdAYh6QHq4iYSPQWpvP9"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/bJe5kC85E1DveJZc0j0x20G"
+  },
+  {
+    "id": "plink_1SF46qAYh6QHq4iYivfSvh7f",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEut3AYh6QHq4iYipoOKjfn"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/aFa5kC99Iful6dtfcv0x20F"
+  },
+  {
+    "id": "plink_1SF46pAYh6QHq4iYyTbmBriE",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEuu3AYh6QHq4iY2ogHqRAh"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/00wcN4fy6gypatJfcv0x20E"
+  },
+  {
+    "id": "plink_1SF46oAYh6QHq4iYwN7mSkT9",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEuv6AYh6QHq4iYLyeba9xX"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/fZu28q2Lk2HzatJggz0x20D"
+  },
+  {
+    "id": "plink_1SF46mAYh6QHq4iY7HAdzcPY",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEuwCAYh6QHq4iY5AQoO0IS"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/bJefZg1HgdmdbxNggz0x20C"
+  },
+  {
+    "id": "plink_1SF46lAYh6QHq4iY6sd4Tz5m",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SEuxQAYh6QHq4iYRfknM7WF"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/3cI28q5Xw0zr45laWf0x20B"
+  },
+  {
+    "id": "plink_1SF46kAYh6QHq4iYVx7uD5gk",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF0DgAYh6QHq4iYT7MKSvJy"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/7sY5kC5Xw2HzfO32pJ0x20A"
+  },
+  {
+    "id": "plink_1SF46iAYh6QHq4iY41y3R2co",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": null,
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": false,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": null,
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {
+      "discount": "50%",
+      "duplicated_from": "plink_1SF1roAYh6QHq4iYel2yVKn6"
+    },
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": false,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/bJe00i2Lkbe531haWf0x20z"
+  },
+  {
+    "id": "plink_1SF1roAYh6QHq4iYel2yVKn6",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": false,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "required",
+    "consent_collection": {
+      "payment_method_reuse_agreement": null,
+      "promotions": "none",
+      "terms_of_service": "required"
+    },
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {},
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": true,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/fZubJ02Lkci931he8r0x20y"
+  },
+  {
+    "id": "plink_1SF0DgAYh6QHq4iYT7MKSvJy",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "auto",
+    "consent_collection": {
+      "payment_method_reuse_agreement": null,
+      "promotions": "none",
+      "terms_of_service": "required"
+    },
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {},
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": true,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/aFadR8clU4PH8lB2pJ0x20x"
+  },
+  {
+    "id": "plink_1SEuxQAYh6QHq4iYRfknM7WF",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "required",
+    "consent_collection": {
+      "payment_method_reuse_agreement": null,
+      "promotions": "none",
+      "terms_of_service": "required"
+    },
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {},
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": true,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/bJe6oGgCa95X9pFe8r0x20w"
+  },
+  {
+    "id": "plink_1SEuwCAYh6QHq4iY5AQoO0IS",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "required",
+    "consent_collection": {
+      "payment_method_reuse_agreement": null,
+      "promotions": "none",
+      "terms_of_service": "required"
+    },
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {},
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": true,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/dRm9ASgCa5TLfO31lF0x20v"
+  },
+  {
+    "id": "plink_1SEuv6AYh6QHq4iYLyeba9xX",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "required",
+    "consent_collection": {
+      "payment_method_reuse_agreement": null,
+      "promotions": "none",
+      "terms_of_service": "required"
+    },
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {},
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": true,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/4gM8wO71A1Dv45l8O70x20u"
+  },
+  {
+    "id": "plink_1SEuu3AYh6QHq4iY2ogHqRAh",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "required",
+    "consent_collection": {
+      "payment_method_reuse_agreement": null,
+      "promotions": "none",
+      "terms_of_service": "required"
+    },
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {},
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": true,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/dRmeVceu295X1Xdggz0x20t"
+  },
+  {
+    "id": "plink_1SEut3AYh6QHq4iYipoOKjfn",
+    "object": "payment_link",
+    "active": true,
+    "after_completion": {
+      "redirect": {
+        "url": "https://www.institut-sitya.at/dankesseite-bestellung?session_id={CHECKOUT_SESSION_ID}"
+      },
+      "type": "redirect"
+    },
+    "allow_promotion_codes": true,
+    "application": null,
+    "application_fee_amount": null,
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "enabled": true,
+      "liability": {
+        "type": "self"
+      }
+    },
+    "billing_address_collection": "required",
+    "consent_collection": {
+      "payment_method_reuse_agreement": null,
+      "promotions": "none",
+      "terms_of_service": "required"
+    },
+    "currency": "eur",
+    "custom_fields": [],
+    "custom_text": {
+      "after_submit": null,
+      "shipping_address": null,
+      "submit": null,
+      "terms_of_service_acceptance": null
+    },
+    "customer_creation": "if_required",
+    "inactive_message": null,
+    "invoice_creation": {
+      "enabled": true,
+      "invoice_data": {
+        "account_tax_ids": null,
+        "custom_fields": null,
+        "description": null,
+        "footer": null,
+        "issuer": {
+          "type": "self"
+        },
+        "metadata": {},
+        "rendering_options": null
+      }
+    },
+    "livemode": true,
+    "metadata": {},
+    "on_behalf_of": null,
+    "payment_intent_data": null,
+    "payment_method_collection": "if_required",
+    "payment_method_types": null,
+    "phone_number_collection": {
+      "enabled": false
+    },
+    "restrictions": null,
+    "shipping_address_collection": null,
+    "shipping_options": [],
+    "submit_type": "auto",
+    "subscription_data": null,
+    "tax_id_collection": {
+      "enabled": true,
+      "required": "never"
+    },
+    "transfer_data": null,
+    "url": "https://checkout.institut-sitya.at/b/14A7sK99I1DvatJ8O70x20s"
+  }
+]

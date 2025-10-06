@@ -1,23 +1,19 @@
-import Stripe from "stripe";
+import Stripe from 'stripe';
 
 const stripe = new Stripe(
   process.env.STRIPE_SECRET_KEY_LIVE || process.env.STRIPE_SECRET_KEY
 );
 
-(async () => {
+export default async function main() {
   try {
-    const products = await stripe.products.list({ limit: 100, active: true });
-
-    console.log("🧾 Aktive Produkte in Stripe:");
-    console.log("----------------------------------");
-    products.data.forEach((p, i) => {
-      console.log(`${i + 1}. ${p.name}`);
-      console.log(`   ID: ${p.id}`);
-      console.log(`   Beschreibung: ${p.description || "(keine)"}`);
-      console.log("----------------------------------");
+    const products = await stripe.products.list({ limit: 100 });
+    console.log("✅ Gefundene Produkte:");
+    products.data.forEach((p) => {
+      console.log(`- ${p.name} (${p.id})`);
     });
   } catch (err) {
-    console.error("❌ Fehler beim Abrufen der Produkte:", err.message);
+    console.error("❌ Fehler beim Abrufen:", err.message);
   }
-})();
+}
 
+main();

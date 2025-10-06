@@ -1,0 +1,69 @@
+{
+  "id": "plink_1SDVvUAYh6QHq4iYOB7Rhmfc",
+  "object": "payment_link",
+  "active": false,
+  "after_completion": {
+    "hosted_confirmation": {
+      "custom_message": null
+    },
+    "type": "hosted_confirmation"
+  },
+  "allow_promotion_codes": false,
+  "application": null,
+  "application_fee_amount": null,
+  "application_fee_percent": null,
+  "automatic_tax": {
+    "enabled": true,
+    "liability": {
+      "type": "self"
+    }
+  },
+  "billing_address_collection": "auto",
+  "consent_collection": {
+    "payment_method_reuse_agreement": null,
+    "promotions": "none",
+    "terms_of_service": "none"
+  },
+  "currency": "eur",
+  "custom_fields": [],
+  "custom_text": {
+    "after_submit": null,
+    "shipping_address": null,
+    "submit": null,
+    "terms_of_service_acceptance": null
+  },
+  "customer_creation": "if_required",
+  "inactive_message": null,
+  "invoice_creation": {
+    "enabled": false,
+    "invoice_data": {
+      "account_tax_ids": null,
+      "custom_fields": null,
+      "description": null,
+      "footer": null,
+      "issuer": null,
+      "metadata": {},
+      "rendering_options": null
+    }
+  },
+  "livemode": true,
+  "metadata": {},
+  "on_behalf_of": null,
+  "payment_intent_data": null,
+  "payment_method_collection": "if_required",
+  "payment_method_types": null,
+  "phone_number_collection": {
+    "enabled": false
+  },
+  "restrictions": null,
+  "shipping_address_collection": null,
+  "shipping_options": [],
+  "submit_type": "auto",
+  "subscription_data": null,
+  "tax_id_collection": {
+    "enabled": false,
+    "required": "never"
+  },
+  "transfer_data": null,
+  "url": "https://checkout.institut-sitya.at/b/00w8wO0Dc5TLeJZ9Sb0x202"
+}

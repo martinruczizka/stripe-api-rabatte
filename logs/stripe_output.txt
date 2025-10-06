@@ -1,0 +1,104 @@
+💰 Aktuelle Preise pro Produkt:
+------------------------------------------------
+📦 Dipl. Kräuterberatung Anbau Innenbereich (prod_T9pT0qybjMJZ2l)
+   💶 1.00 EUR | ID: price_1SF1nxAYh6QHq4iYhgYPyAKP
+   💶 349.00 EUR | ID: price_1SDtMKAYh6QHq4iY8OWmwV4g
+   💶 290.83 EUR | ID: price_1SDVp0AYh6QHq4iYQCrhE51n
+------------------------------------------------
+📦 Dipl. Feng Shui Pflanzenberatung für Innenräume (prod_T9pSY4ziqf3iBZ)
+   💶 349.00 EUR | ID: price_1SDVo3AYh6QHq4iYHrEcwnJl
+------------------------------------------------
+📦 Dipl. Kräuterteeberatung für Stressabbau (prod_T9pS0PyhsZMOPk)
+   💶 349.00 EUR | ID: price_1SDVnYAYh6QHq4iYc2kQppQN
+------------------------------------------------
+📦 Dipl. Ayurveda Kräuterspezialistin Ashwagandha (prod_T9pRfKeJyBXQ8C)
+   💶 349.00 EUR | ID: price_1SDVmvAYh6QHq4iY73OIerhW
+------------------------------------------------
+📦 Dipl. Fachberatung für Räuchermischungen (prod_T9pRApCLlHfKui)
+   💶 349.00 EUR | ID: price_1SDVmVAYh6QHq4iYdvgDiYH8
+------------------------------------------------
+📦 Dipl. Ayurvedisches Ernährungstraining (prod_T9pQ7DusVT8fk2)
+   💶 349.00 EUR | ID: price_1SDtJsAYh6QHq4iY8N9wkzWz
+   💶 290.83 EUR | ID: price_1SDVm5AYh6QHq4iYa8gMB71J
+------------------------------------------------
+📦 Dipl. TCM Ernährungstraining (prod_T9pQcIwPo23VMl)
+   💶 1.00 EUR | ID: price_1SF1oSAYh6QHq4iYJUzSpERl
+   💶 349.00 EUR | ID: price_1SDVldAYh6QHq4iYE6lSGAy0
+------------------------------------------------
+📦 Dipl. Praktikum für Schamanische Rituale (prod_T9pQBGLCLdiH50)
+   💶 349.00 EUR | ID: price_1SDVlAAYh6QHq4iYj9kJGcuS
+------------------------------------------------
+📦 Dipl. Wildkräuter Praktikerin (prod_T9pP1a8Yz8JEOA)
+   💶 349.00 EUR | ID: price_1SDVkiAYh6QHq4iYW3phN0xp
+------------------------------------------------
+📦 Dipl. Fachpraktikum für Shinrin Yoku (Waldbaden) (prod_T9pPakHHRj97NB)
+   💶 349.00 EUR | ID: price_1SDtIGAYh6QHq4iYQPcyo7T6
+   💶 290.83 EUR | ID: price_1SDVkGAYh6QHq4iYYsbUOh8f
+------------------------------------------------
+📦 Vitalcoach für Pferde (prod_T9pOFQgt3o0T8z)
+   💶 649.00 EUR | ID: price_1SDVjgAYh6QHq4iY9uGX6Boq
+------------------------------------------------
+📦 Vitalcoach für Hunde (prod_T9pOezFgepifKT)
+   💶 649.00 EUR | ID: price_1SDVjFAYh6QHq4iYUx43p3ew
+------------------------------------------------
+📦 Vitalcoach für Katzen (prod_T9pNl8iGQU6n9Q)
+   💶 649.00 EUR | ID: price_1SDVicAYh6QHq4iYAknDgNB8
+------------------------------------------------
+📦 Basisvtialcoach für Tiere (prod_T9pMoIQRw9aoWj)
+   💶 649.00 EUR | ID: price_1SDVi7AYh6QHq4iYPQbWdODG
+------------------------------------------------
+📦 Dipl. Bachblütenberatung für Hunde (prod_T9pM6H1DqhBRkh)
+   💶 649.00 EUR | ID: price_1SDVhRAYh6QHq4iYTamM6eQE
+------------------------------------------------
+📦 Dipl. Klangenergetik (prod_T9pL93x0BDGGJF)
+   💶 649.00 EUR | ID: price_1SDVgsAYh6QHq4iYqyTh9DIM
+------------------------------------------------
+📦 Dipl. Bachblütenberatung (prod_T9pKei8x5n3f8T)
+   💶 649.00 EUR | ID: price_1SDVgCAYh6QHq4iYBCXIs9cx
+------------------------------------------------
+📦 Dipl. Aromaberatung (prod_T9pKdNzZzHsQLK)
+   💶 649.00 EUR | ID: price_1SDVfOAYh6QHq4iYluawUqyl
+------------------------------------------------
+📦 Dipl. Knospenkunde (prod_T9o6VjWEjqP0FR)
+   💶 1749.00 EUR | ID: price_1SDUUAAYh6QHq4iYLHwfAAm5
+------------------------------------------------
+📦 Dipl. Kinesiologie (prod_T9o55nl27slr1Q)
+   💶 1749.00 EUR | ID: price_1SDtE0AYh6QHq4iYpbD3f4NV
+   💶 1457.50 EUR | ID: price_1SDUTXAYh6QHq4iYk79V35Wo
+------------------------------------------------
+📦 Dipl. Farbenergetik (prod_T9o4ish81VmCfK)
+   💶 1749.00 EUR | ID: price_1SDtDZAYh6QHq4iYrhW3DooT
+   💶 1457.50 EUR | ID: price_1SDUSXAYh6QHq4iYWl1RYHXK
+------------------------------------------------
+📦 Dipl. Resilienztraining (prod_T9o4jd6asVFaKa)
+   💶 1749.00 EUR | ID: price_1SDURxAYh6QHq4iY5aK9ETIQ
+------------------------------------------------
+📦 Dipl. Achtsamkeitstraining (prod_T9o3MH6SKcdQzw)
+   💶 1749.00 EUR | ID: price_1SDURSAYh6QHq4iYFno58oYq
+------------------------------------------------
+📦 Dipl. Natur- und Erlebnispädagogik (prod_T9o1XRq6svwOky)
+   💶 1749.00 EUR | ID: price_1SDUPeAYh6QHq4iYPqZODfkT
+------------------------------------------------
+📦 Dipl. Mentaltraining (prod_T9o0kfBOyqq0lf)
+   💶 1749.00 EUR | ID: price_1SDt6cAYh6QHq4iYRBhzMjwi
+   💶 1457.50 EUR | ID: price_1SDUO4AYh6QHq4iYMCATcxN4
+------------------------------------------------
+📦 Dipl. Kräuterpädagogik (prod_T9nppkh0Ev2Do4)
+   💶 1749.00 EUR | ID: price_1SDtBXAYh6QHq4iYZpXvklw3
+   💶 1457.50 EUR | ID: price_1SDUDzAYh6QHq4iYWvsLjB7R
+------------------------------------------------
+📦 Dipl. Ernährungstraining (prod_T9nhVODvvHRGb0)
+   💶 1749.00 EUR | ID: price_1SDtAmAYh6QHq4iYSeI2CBtX
+   💶 1457.50 EUR | ID: price_1SDU5eAYh6QHq4iYRTWkhL9m
+------------------------------------------------
+📦 50 % Premium+ Gratis Kurs (prod_T8NCzg5T4fxaka)
+   💶 937.08 EUR | ID: price_1SC6S6AYh6QHq4iY9mOarogE
+------------------------------------------------
+📦 Dipl. Tierenergetik (prod_T7t014n3DW0bO3)
+   💶 2249.00 EUR | ID: price_1SDrcQAYh6QHq4iYo4pknTcy
+   💶 1874.17 EUR | ID: price_1SBdEHAYh6QHq4iYtwANNKT9
+------------------------------------------------
+📦 Dipl. Humanenergetik (prod_T7sxWkZdokVWit)
+   💶 2249.00 EUR | ID: price_1SDsgPAYh6QHq4iYGLwGCU9P
+   💶 1874.17 EUR | ID: price_1SBdC0AYh6QHq4iYOTo5xbm0
+------------------------------------------------

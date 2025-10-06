@@ -1,0 +1,129 @@
+id,product,price_eur,lookup_key,url,active,created,allow_promo,discount,duplicated_from
+plink_1SF4a1AYh6QHq4iYAb0E32Tp,"Dipl. Humanenergetik",1124.50,"humanenergetiker_50off",https://checkout.institut-sitya.at/b/28E00i2Lk4PH8lB7K30x223,true,unbekannt,Nein,50%,plink_1SF4G3AYh6QHq4iYnAS5TpRp
+plink_1SF4ZzAYh6QHq4iYv1Iza4R8,"Dipl. Tierenergetik",1124.50,"tierenergetiker_50off",https://checkout.institut-sitya.at/b/28E9ASgCa0zrcBRc0j0x222,true,unbekannt,Nein,50%,plink_1SF4G4AYh6QHq4iYzDGBNZ7t
+plink_1SF4ZyAYh6QHq4iYXJR95OLg,"Basisvtialcoach für Tiere",324.50,"tierenergetiker-basis_50off",https://checkout.institut-sitya.at/b/00w8wOdpYaa18lB4xR0x221,true,unbekannt,Nein,50%,plink_1SF4G6AYh6QHq4iYoox9LSeK
+plink_1SF4ZxAYh6QHq4iYFhoKQbsz,"Vitalcoach für Hunde",324.50,"tierenergetiker-hund_50off",https://checkout.institut-sitya.at/b/5kQ5kCdpYfulbxN6FZ0x220,true,unbekannt,Nein,50%,plink_1SF4G7AYh6QHq4iYeqgXtva4
+plink_1SF4ZvAYh6QHq4iYNBtB8xB3,"Vitalcoach für Katzen",324.50,"tierenergetiker-katze_50off",https://checkout.institut-sitya.at/b/8x24gy5Xw2HzatJ4xR0x21Z,true,unbekannt,Nein,50%,plink_1SF4G8AYh6QHq4iYl1hH3eCC
+plink_1SF4ZuAYh6QHq4iYBuEfYhCx,"Dipl. Bachblütenberatung für Hunde",324.50,"bachbluetenhunde_50off",https://checkout.institut-sitya.at/b/4gM9ASadMbe59pF5BV0x21Y,true,unbekannt,Nein,50%,plink_1SF4G9AYh6QHq4iYSmMWcbmk
+plink_1SF4ZtAYh6QHq4iYnTdeD3Wx,"Vitalcoach für Pferde",324.50,"tierenergetiker-pferd_50off",https://checkout.institut-sitya.at/b/bJebJ085E4PHatJ6FZ0x21X,true,unbekannt,Nein,50%,plink_1SF4GBAYh6QHq4iYLUUbFHzg
+plink_1SF4ZsAYh6QHq4iYZ62AzmTd,"Dipl. Farbenergetik",874.50,"farbtherapie_50off",https://checkout.institut-sitya.at/b/00w3cu1Hg4PH45l3tN0x21W,true,unbekannt,Nein,50%,plink_1SF4GCAYh6QHq4iYNFd9AUQQ
+plink_1SF4ZrAYh6QHq4iYKnUATlIw,"Dipl. Kinesiologie",874.50,"kinesiologie_50off",https://checkout.institut-sitya.at/b/eVqaEWfy6gypfO36FZ0x21V,true,unbekannt,Nein,50%,plink_1SF4GDAYh6QHq4iYujYcSvQ9
+plink_1SF4ZpAYh6QHq4iYI6ji0k26,"Dipl. Aromaberatung",324.50,"aromaberater_50off",https://checkout.institut-sitya.at/b/14AcN4gCadmd8lBggz0x21U,true,unbekannt,Nein,50%,plink_1SF4GFAYh6QHq4iYTmi5Z5Bt
+plink_1SF4ZoAYh6QHq4iYRq3Qy7lp,"Dipl. Bachblütenberatung",324.50,"bachbluetenberater_50off",https://checkout.institut-sitya.at/b/8x2bJ0dpYgyp7hx4xR0x21T,true,unbekannt,Nein,50%,plink_1SF4GGAYh6QHq4iYrSTllAYh
+plink_1SF4ZnAYh6QHq4iYS7Tei82N,"Dipl. Klangenergetik",324.50,"klangenergetiker_50off",https://checkout.institut-sitya.at/b/28EbJ0gCaci9atJ0hB0x21S,true,unbekannt,Nein,50%,plink_1SF4GHAYh6QHq4iYRuAcPbnu
+plink_1SF4ZlAYh6QHq4iYzM1L0HBK,"Dipl. Praktikum für Schamanische Rituale",174.50,"schamanische-rituale_50off",https://checkout.institut-sitya.at/b/5kQaEWadM81T59p9Sb0x21R,true,unbekannt,Nein,50%,plink_1SF4GIAYh6QHq4iYKCIDsm3v
+plink_1SF4ZkAYh6QHq4iY8XWlXruw,"Dipl. Fachberatung für Räuchermischungen",174.50,"fachberater-raeuchermischungen_50off",https://checkout.institut-sitya.at/b/bJefZgadM0zreJZe8r0x21Q,true,unbekannt,Nein,50%,plink_1SF4GKAYh6QHq4iYoLzZJqK2
+plink_1SF4ZjAYh6QHq4iYBSIvxvoa,"Dipl. Feng Shui Pflanzenberatung für Innenräume",174.50,"feng-shui-pflanzenberatung_50off",https://checkout.institut-sitya.at/b/aFa14madMaa1fO30hB0x21P,true,unbekannt,Nein,50%,plink_1SF4GLAYh6QHq4iYlZvTenar
+plink_1SF4ZiAYh6QHq4iY3PpPI2vZ,"Dipl. Mentaltraining",874.50,"mentaltrainer_50off",https://checkout.institut-sitya.at/b/7sY28q85E1Dv59p0hB0x21O,true,unbekannt,Nein,50%,plink_1SF4GMAYh6QHq4iYvDW4aMFN
+plink_1SF4ZgAYh6QHq4iYrL6mNTeo,"Dipl. Natur- und Erlebnispädagogik",874.50,"naturunderlebnispaedagoge_50off",https://checkout.institut-sitya.at/b/28EbJ0gCa2Hz8lB5BV0x21N,true,unbekannt,Nein,50%,plink_1SF4GNAYh6QHq4iYeQAPv9kE
+plink_1SF4ZfAYh6QHq4iY426l4tyC,"Dipl. Achtsamkeitstraining",874.50,"achtsamkeitstrainer_50off",https://checkout.institut-sitya.at/b/00w4gygCa1DvdFVaWf0x21M,true,unbekannt,Nein,50%,plink_1SF4GPAYh6QHq4iYqbEs9YUw
+plink_1SF4ZeAYh6QHq4iYVZl7DPi9,"Dipl. Resilienztraining",874.50,"resilienztrainer_50off",https://checkout.institut-sitya.at/b/4gMfZgbhQ2Hz45l0hB0x21L,true,unbekannt,Nein,50%,plink_1SF4GQAYh6QHq4iY9Ciiubkf
+plink_1SF4ZdAYh6QHq4iYXWIcXFYf,"Dipl. Fachpraktikum für Shinrin Yoku (Waldbaden)",174.50,"fachpraktikum-shinrin-yoku_50off",https://checkout.institut-sitya.at/b/fZu14m0Dc4PH45l8O70x21K,true,unbekannt,Nein,50%,plink_1SF4GRAYh6QHq4iYtTt7Vk5x
+plink_1SF4ZbAYh6QHq4iYuSNZEUQv,"Dipl. Ernährungstraining",874.50,"ernaehrungstrainer_50off",https://checkout.institut-sitya.at/b/aFa9AS2Lk81TfO34xR0x21J,true,unbekannt,Nein,50%,plink_1SF4GTAYh6QHq4iY0rncw33g
+plink_1SF4ZaAYh6QHq4iYrGNG37ov,"Dipl. TCM Ernährungstraining",174.50,"tcm-ernaehrungstraining_50off",https://checkout.institut-sitya.at/b/7sYeVcgCa0zr8lBd4n0x21I,true,unbekannt,Nein,50%,plink_1SF4GUAYh6QHq4iY1wuUyyOQ
+plink_1SF4ZZAYh6QHq4iYgxgiQDLs,"Dipl. Ayurvedisches Ernährungstraining",174.50,"ayurveda-ernaehrungstraining_50off",https://checkout.institut-sitya.at/b/9B63cu1Hg95XeJZe8r0x21H,true,unbekannt,Nein,50%,plink_1SF4GVAYh6QHq4iYKNx1dyUO
+plink_1SF4ZYAYh6QHq4iYKpW8CLHz,"Dipl. Kräuterpädagogik",874.50,"kraeuterpaedagoge_50off",https://checkout.institut-sitya.at/b/eVqcN4dpY95X0T97K30x21G,true,unbekannt,Nein,50%,plink_1SF4GXAYh6QHq4iYhnI9bl2n
+plink_1SF4ZWAYh6QHq4iYAIjivhBN,"Dipl. Wildkräuter Praktikerin",174.50,"wildkraeuter-praktiker_50off",https://checkout.institut-sitya.at/b/00wcN471AfulbxN5BV0x21F,true,unbekannt,Nein,50%,plink_1SF4GYAYh6QHq4iYO8fblHOH
+plink_1SF4ZVAYh6QHq4iYr1OWaHTr,"Dipl. Knospenkunde",874.50,"knospenkunde_50off",https://checkout.institut-sitya.at/b/3cI6oG3Po2HzcBRfcv0x21E,true,unbekannt,Nein,50%,plink_1SF4GZAYh6QHq4iYmbyAdXjW
+plink_1SF4ZUAYh6QHq4iY1KJ3qbfk,"Dipl. Ayurveda Kräuterspezialistin Ashwagandha",174.50,"ayurveda-kraueterspezialist_50off",https://checkout.institut-sitya.at/b/6oUdR8clU5TL8lB2pJ0x21D,true,unbekannt,Nein,50%,plink_1SF4GaAYh6QHq4iY9tgTSNy6
+plink_1SF4ZTAYh6QHq4iYYDYRzAGz,"Dipl. Kräuterteeberatung für Stressabbau",174.50,"kraeuterteeberater_50off",https://checkout.institut-sitya.at/b/eVq9ASeu21DvgS77K30x21C,true,unbekannt,Nein,50%,plink_1SF4GcAYh6QHq4iY3jB9eTHL
+plink_1SF4ZRAYh6QHq4iYzqD2IgDz,"Dipl. Kräuterberatung Anbau Innenbereich",174.50,"kraeuterberater-anbau-innen_50off",https://checkout.institut-sitya.at/b/aFa8wObhQ6XPbxN0hB0x21B,true,unbekannt,Nein,50%,plink_1SF4GdAYh6QHq4iYXv4xBPHz
+plink_1SF4ZQAYh6QHq4iYL9vWwhit,"Dipl. Humanenergetik",1124.50,"humanenergetiker_50off",https://checkout.institut-sitya.at/b/6oUfZggCafulfO36FZ0x21A,true,unbekannt,Nein,50%,plink_1SF4GeAYh6QHq4iYmQ9agYK3
+plink_1SF4ZPAYh6QHq4iYDS8UCsM2,"Dipl. TCM Ernährungstraining",174.50,"tcm-ernaehrungstraining_50off",https://checkout.institut-sitya.at/b/5kQ6oGdpYful0T98O70x21z,true,unbekannt,Nein,50%,plink_1SF4GgAYh6QHq4iYKhRIkWGs
+plink_1SF4GgAYh6QHq4iYKhRIkWGs,"Dipl. TCM Ernährungstraining",174.50,"tcm-ernaehrungstraining_50off",https://checkout.institut-sitya.at/b/bJebJ0dpYaa131h2pJ0x21y,true,unbekannt,Nein,50%,plink_1SF46iAYh6QHq4iY41y3R2co
+plink_1SF4GeAYh6QHq4iYmQ9agYK3,"Dipl. Humanenergetik",1124.50,"humanenergetiker_50off",https://checkout.institut-sitya.at/b/aFa5kC3PodmdcBRd4n0x21x,true,unbekannt,Nein,50%,plink_1SF46kAYh6QHq4iYVx7uD5gk
+plink_1SF4GdAYh6QHq4iYXv4xBPHz,"Dipl. Kräuterberatung Anbau Innenbereich",174.50,"kraeuterberater-anbau-innen_50off",https://checkout.institut-sitya.at/b/fZu9AS5Xwful59p9Sb0x21w,true,unbekannt,Nein,50%,plink_1SF46lAYh6QHq4iY6sd4Tz5m
+plink_1SF4GcAYh6QHq4iY3jB9eTHL,"Dipl. Kräuterteeberatung für Stressabbau",174.50,"kraeuterteeberater_50off",https://checkout.institut-sitya.at/b/14A7sK3PofulcBRd4n0x21v,true,unbekannt,Nein,50%,plink_1SF46mAYh6QHq4iY7HAdzcPY
+plink_1SF4GaAYh6QHq4iY9tgTSNy6,"Dipl. Ayurveda Kräuterspezialistin Ashwagandha",174.50,"ayurveda-kraueterspezialist_50off",https://checkout.institut-sitya.at/b/bJe7sK99I2HzcBR2pJ0x21u,true,unbekannt,Nein,50%,plink_1SF46oAYh6QHq4iYwN7mSkT9
+plink_1SF4GZAYh6QHq4iYmbyAdXjW,"Dipl. Knospenkunde",874.50,"knospenkunde_50off",https://checkout.institut-sitya.at/b/3cI6oGdpYeqh45l3tN0x21t,true,unbekannt,Nein,50%,plink_1SF46pAYh6QHq4iYyTbmBriE
+plink_1SF4GYAYh6QHq4iYO8fblHOH,"Dipl. Wildkräuter Praktikerin",174.50,"wildkraeuter-praktiker_50off",https://checkout.institut-sitya.at/b/8x214m4Ts6XPdFVggz0x21s,true,unbekannt,Nein,50%,plink_1SF46qAYh6QHq4iYivfSvh7f
+plink_1SF4GXAYh6QHq4iYhnI9bl2n,"Dipl. Kräuterpädagogik",874.50,"kraeuterpaedagoge_50off",https://checkout.institut-sitya.at/b/3cIfZgclUbe5dFV3tN0x21r,true,unbekannt,Nein,50%,plink_1SF46sAYh6QHq4iYoCdZlDuk
+plink_1SF4GVAYh6QHq4iYKNx1dyUO,"Dipl. Ayurvedisches Ernährungstraining",174.50,"ayurveda-ernaehrungstraining_50off",https://checkout.institut-sitya.at/b/00w28qgCadmdcBR4xR0x21q,true,unbekannt,Nein,50%,plink_1SF46tAYh6QHq4iYu7068sm1
+plink_1SF4GUAYh6QHq4iY1wuUyyOQ,"Dipl. TCM Ernährungstraining",174.50,"tcm-ernaehrungstraining_50off",https://checkout.institut-sitya.at/b/bJe7sK85E81T0T9fcv0x21p,true,unbekannt,Nein,50%,plink_1SF46uAYh6QHq4iYEkTn2EIt
+plink_1SF4GTAYh6QHq4iY0rncw33g,"Dipl. Ernährungstraining",874.50,"ernaehrungstrainer_50off",https://checkout.institut-sitya.at/b/00w14m99I4PH1Xdfcv0x21o,true,unbekannt,Nein,50%,plink_1SF46vAYh6QHq4iY29HwRYyO
+plink_1SF4GRAYh6QHq4iYtTt7Vk5x,"Dipl. Fachpraktikum für Shinrin Yoku (Waldbaden)",174.50,"fachpraktikum-shinrin-yoku_50off",https://checkout.institut-sitya.at/b/5kQbJ05Xwdmd45l8O70x21n,true,unbekannt,Nein,50%,plink_1SF46xAYh6QHq4iY198GPKki
+plink_1SF4GQAYh6QHq4iY9Ciiubkf,"Dipl. Resilienztraining",874.50,"resilienztrainer_50off",https://checkout.institut-sitya.at/b/5kQeVc85E1Dv59pc0j0x21m,true,unbekannt,Nein,50%,plink_1SF46yAYh6QHq4iYrr6XzYCY
+plink_1SF4GPAYh6QHq4iYqbEs9YUw,"Dipl. Achtsamkeitstraining",874.50,"achtsamkeitstrainer_50off",https://checkout.institut-sitya.at/b/7sYfZgdpYfulatJ2pJ0x21l,true,unbekannt,Nein,50%,plink_1SF46zAYh6QHq4iYyGQQAfOR
+plink_1SF4GNAYh6QHq4iYeQAPv9kE,"Dipl. Natur- und Erlebnispädagogik",874.50,"naturunderlebnispaedagoge_50off",https://checkout.institut-sitya.at/b/6oUeVc5Xw81T9pF6FZ0x21k,true,unbekannt,Nein,50%,plink_1SF471AYh6QHq4iYUjhcHxAj
+plink_1SF4GMAYh6QHq4iYvDW4aMFN,"Dipl. Mentaltraining",874.50,"mentaltrainer_50off",https://checkout.institut-sitya.at/b/cNidR8adM2Hz1Xd9Sb0x21j,true,unbekannt,Nein,50%,plink_1SF472AYh6QHq4iYM6MTCdtN
+plink_1SF4GLAYh6QHq4iYlZvTenar,"Dipl. Feng Shui Pflanzenberatung für Innenräume",174.50,"feng-shui-pflanzenberatung_50off",https://checkout.institut-sitya.at/b/6oU4gy3Pobe5eJZd4n0x21i,true,unbekannt,Nein,50%,plink_1SF473AYh6QHq4iYddUUUdbg
+plink_1SF4GKAYh6QHq4iYoLzZJqK2,"Dipl. Fachberatung für Räuchermischungen",174.50,"fachberater-raeuchermischungen_50off",https://checkout.institut-sitya.at/b/dRm28q85E2HzbxN3tN0x21h,true,unbekannt,Nein,50%,plink_1SF474AYh6QHq4iYw1J6YOGX
+plink_1SF4GIAYh6QHq4iYKCIDsm3v,"Dipl. Praktikum für Schamanische Rituale",174.50,"schamanische-rituale_50off",https://checkout.institut-sitya.at/b/8x29AS5Xw4PHatJggz0x21g,true,unbekannt,Nein,50%,plink_1SF476AYh6QHq4iY5RMtSlzl
+plink_1SF4GHAYh6QHq4iYRuAcPbnu,"Dipl. Klangenergetik",324.50,"klangenergetiker_50off",https://checkout.institut-sitya.at/b/eVq5kCfy64PH1Xdc0j0x21f,true,unbekannt,Nein,50%,plink_1SF477AYh6QHq4iY7KoppxgN
+plink_1SF4GGAYh6QHq4iYrSTllAYh,"Dipl. Bachblütenberatung",324.50,"bachbluetenberater_50off",https://checkout.institut-sitya.at/b/eVq3cu3Po5TL6dt7K30x21e,true,unbekannt,Nein,50%,plink_1SF478AYh6QHq4iYsQxi5Zcd
+plink_1SF4GFAYh6QHq4iYTmi5Z5Bt,"Dipl. Aromaberatung",324.50,"aromaberater_50off",https://checkout.institut-sitya.at/b/28EbJ0gCaful8lB3tN0x21d,true,unbekannt,Nein,50%,plink_1SF47AAYh6QHq4iYA2uFKp02
+plink_1SF4GDAYh6QHq4iYujYcSvQ9,"Dipl. Kinesiologie",874.50,"kinesiologie_50off",https://checkout.institut-sitya.at/b/fZu7sK5Xw6XP8lB0hB0x21c,true,unbekannt,Nein,50%,plink_1SF47BAYh6QHq4iYvmoO106i
+plink_1SF4GCAYh6QHq4iYNFd9AUQQ,"Dipl. Farbenergetik",874.50,"farbtherapie_50off",https://checkout.institut-sitya.at/b/8x26oGeu25TLeJZ6FZ0x21b,true,unbekannt,Nein,50%,plink_1SF47CAYh6QHq4iYIw2rfshA
+plink_1SF4GBAYh6QHq4iYLUUbFHzg,"Vitalcoach für Pferde",324.50,"tierenergetiker-pferd_50off",https://checkout.institut-sitya.at/b/eVq4gybhQ6XP7hxaWf0x21a,true,unbekannt,Nein,50%,plink_1SF47DAYh6QHq4iYRyGtId1X
+plink_1SF4G9AYh6QHq4iYSmMWcbmk,"Dipl. Bachblütenberatung für Hunde",324.50,"bachbluetenhunde_50off",https://checkout.institut-sitya.at/b/dRmaEWeu281TfO3c0j0x219,true,unbekannt,Nein,50%,plink_1SF47FAYh6QHq4iYM3YbZiWC
+plink_1SF4G8AYh6QHq4iYl1hH3eCC,"Vitalcoach für Katzen",324.50,"tierenergetiker-katze_50off",https://checkout.institut-sitya.at/b/00w8wO85E81T1Xd0hB0x218,true,unbekannt,Nein,50%,plink_1SF47GAYh6QHq4iYvZY3xHLC
+plink_1SF4G7AYh6QHq4iYeqgXtva4,"Vitalcoach für Hunde",324.50,"tierenergetiker-hund_50off",https://checkout.institut-sitya.at/b/9B65kCclUaa16dtggz0x217,true,unbekannt,Nein,50%,plink_1SF47IAYh6QHq4iYXF4BUFId
+plink_1SF4G6AYh6QHq4iYoox9LSeK,"Basisvtialcoach für Tiere",324.50,"tierenergetiker-basis_50off",https://checkout.institut-sitya.at/b/14A28qdpYaa18lB0hB0x216,true,unbekannt,Nein,50%,plink_1SF47JAYh6QHq4iYoA5GTv3C
+plink_1SF4G4AYh6QHq4iYzDGBNZ7t,"Dipl. Tierenergetik",1124.50,"tierenergetiker_50off",https://checkout.institut-sitya.at/b/8x214mfy6be50T91lF0x215,true,unbekannt,Nein,50%,plink_1SF47KAYh6QHq4iYB1qfITo1
+plink_1SF4G3AYh6QHq4iYnAS5TpRp,"Dipl. Humanenergetik",1124.50,"humanenergetiker_50off",https://checkout.institut-sitya.at/b/aFa3cudpY5TL59p8O70x214,true,unbekannt,Nein,50%,plink_1SF47LAYh6QHq4iY0l9RJrEw
+plink_1SF47LAYh6QHq4iY0l9RJrEw,"Dipl. Humanenergetik",1124.50,"humanenergetiker_50off",https://checkout.institut-sitya.at/b/28E28q5Xw2HzfO3fcv0x213,true,unbekannt,Ja,50%,plink_1SDt2pAYh6QHq4iYF87ocPeg
+plink_1SF47KAYh6QHq4iYB1qfITo1,"Dipl. Tierenergetik",1124.50,"tierenergetiker_50off",https://checkout.institut-sitya.at/b/5kQ6oGdpYeqh9pF0hB0x212,true,unbekannt,Ja,50%,plink_1SDtWUAYh6QHq4iYPQc1PWM3
+plink_1SF47JAYh6QHq4iYoA5GTv3C,"Basisvtialcoach für Tiere",324.50,"tierenergetiker-basis_50off",https://checkout.institut-sitya.at/b/dRmdR84Ts4PHdFV2pJ0x211,true,unbekannt,Ja,50%,plink_1SEtdZAYh6QHq4iYNPgJRR0F
+plink_1SF47IAYh6QHq4iYXF4BUFId,"Vitalcoach für Hunde",324.50,"tierenergetiker-hund_50off",https://checkout.institut-sitya.at/b/cNi28q85EfuleJZ0hB0x210,true,unbekannt,Ja,50%,plink_1SEtgkAYh6QHq4iYrfbqWF0f
+plink_1SF47GAYh6QHq4iYvZY3xHLC,"Vitalcoach für Katzen",324.50,"tierenergetiker-katze_50off",https://checkout.institut-sitya.at/b/4gMeVcbhQ5TL31h8O70x20Z,true,unbekannt,Ja,50%,plink_1SEu2AAYh6QHq4iY2BH0YaGy
+plink_1SF47FAYh6QHq4iYM3YbZiWC,"Dipl. Bachblütenberatung für Hunde",324.50,"bachbluetenhunde_50off",https://checkout.institut-sitya.at/b/8x29AS71AfulgS73tN0x20Y,true,unbekannt,Ja,50%,plink_1SEu5IAYh6QHq4iYzvXFkdUz
+plink_1SF47DAYh6QHq4iYRyGtId1X,"Vitalcoach für Pferde",324.50,"tierenergetiker-pferd_50off",https://checkout.institut-sitya.at/b/3cI6oGeu23LDdFV4xR0x20X,true,unbekannt,Ja,50%,plink_1SEu6oAYh6QHq4iYiREfETSH
+plink_1SF47CAYh6QHq4iYIw2rfshA,"Dipl. Farbenergetik",874.50,"farbtherapie_50off",https://checkout.institut-sitya.at/b/8x2bJ0clUci9eJZ7K30x20W,true,unbekannt,Ja,50%,plink_1SEu8bAYh6QHq4iYYzBV5pem
+plink_1SF47BAYh6QHq4iYvmoO106i,"Dipl. Kinesiologie",874.50,"kinesiologie_50off",https://checkout.institut-sitya.at/b/8x228q71AfulcBRc0j0x20V,true,unbekannt,Ja,50%,plink_1SEuAQAYh6QHq4iYI2CvkPEQ
+plink_1SF47AAYh6QHq4iYA2uFKp02,"Dipl. Aromaberatung",324.50,"aromaberater_50off",https://checkout.institut-sitya.at/b/bJe7sK5Xwaa159p6FZ0x20U,true,unbekannt,Ja,50%,plink_1SEuCKAYh6QHq4iYAxYO8nM1
+plink_1SF478AYh6QHq4iYsQxi5Zcd,"Dipl. Bachblütenberatung",324.50,"bachbluetenberater_50off",https://checkout.institut-sitya.at/b/28E28qfy6aa11XdaWf0x20T,true,unbekannt,Ja,50%,plink_1SEuGAAYh6QHq4iYF8xznOJf
+plink_1SF477AYh6QHq4iY7KoppxgN,"Dipl. Klangenergetik",324.50,"klangenergetiker_50off",https://checkout.institut-sitya.at/b/7sY14m5Xwci91XdaWf0x20S,true,unbekannt,Ja,50%,plink_1SEuIhAYh6QHq4iY97jj2lg9
+plink_1SF476AYh6QHq4iY5RMtSlzl,"Dipl. Praktikum für Schamanische Rituale",174.50,"schamanische-rituale_50off",https://checkout.institut-sitya.at/b/00w14madMci959p0hB0x20R,true,unbekannt,Ja,50%,plink_1SEuK8AYh6QHq4iY9wW6Toql
+plink_1SF474AYh6QHq4iYw1J6YOGX,"Dipl. Fachberatung für Räuchermischungen",174.50,"fachberater-raeuchermischungen_50off",https://checkout.institut-sitya.at/b/00waEWeu2be59pFe8r0x20Q,true,unbekannt,Ja,50%,plink_1SEuLPAYh6QHq4iY52f99XJ5
+plink_1SF473AYh6QHq4iYddUUUdbg,"Dipl. Feng Shui Pflanzenberatung für Innenräume",174.50,"feng-shui-pflanzenberatung_50off",https://checkout.institut-sitya.at/b/3cI14m1Hg5TLcBRd4n0x20P,true,unbekannt,Ja,50%,plink_1SEuMyAYh6QHq4iYmaoAUDRf
+plink_1SF472AYh6QHq4iYM6MTCdtN,"Dipl. Mentaltraining",874.50,"mentaltrainer_50off",https://checkout.institut-sitya.at/b/eVq00igCabe5atJggz0x20O,true,unbekannt,Ja,50%,plink_1SEuONAYh6QHq4iYInBSyOno
+plink_1SF471AYh6QHq4iYUjhcHxAj,"Dipl. Natur- und Erlebnispädagogik",874.50,"naturunderlebnispaedagoge_50off",https://checkout.institut-sitya.at/b/9B6cN43PoeqheJZggz0x20N,true,unbekannt,Ja,50%,plink_1SEuVGAYh6QHq4iYtYm7rg9t
+plink_1SF46zAYh6QHq4iYyGQQAfOR,"Dipl. Achtsamkeitstraining",874.50,"achtsamkeitstrainer_50off",https://checkout.institut-sitya.at/b/bJecN42Lkful45le8r0x20M,true,unbekannt,Ja,50%,plink_1SEudOAYh6QHq4iYgWclHe0j
+plink_1SF46yAYh6QHq4iYrr6XzYCY,"Dipl. Resilienztraining",874.50,"resilienztrainer_50off",https://checkout.institut-sitya.at/b/bJe14m5XweqheJZfcv0x20L,true,unbekannt,Ja,50%,plink_1SEuhCAYh6QHq4iYS0daUqx3
+plink_1SF46xAYh6QHq4iY198GPKki,"Dipl. Fachpraktikum für Shinrin Yoku (Waldbaden)",174.50,"fachpraktikum-shinrin-yoku_50off",https://checkout.institut-sitya.at/b/eVq8wO71AfuldFV7K30x20K,true,unbekannt,Ja,50%,plink_1SEumAAYh6QHq4iYRdPG43N9
+plink_1SF46vAYh6QHq4iY29HwRYyO,"Dipl. Ernährungstraining",874.50,"ernaehrungstrainer_50off",https://checkout.institut-sitya.at/b/8x26oG3Poaa1dFV7K30x20J,true,unbekannt,Ja,50%,plink_1SEuoDAYh6QHq4iYz4i71G3d
+plink_1SF46uAYh6QHq4iYEkTn2EIt,"Dipl. TCM Ernährungstraining",174.50,"tcm-ernaehrungstraining_50off",https://checkout.institut-sitya.at/b/cNidR899I4PH0T93tN0x20I,true,unbekannt,Ja,50%,plink_1SEup4AYh6QHq4iYKW2zP5QR
+plink_1SF46tAYh6QHq4iYu7068sm1,"Dipl. Ayurvedisches Ernährungstraining",174.50,"ayurveda-ernaehrungstraining_50off",https://checkout.institut-sitya.at/b/3cI28q2Lkeqh31hggz0x20H,true,unbekannt,Ja,50%,plink_1SEuqHAYh6QHq4iYsOMXYwLO
+plink_1SF46sAYh6QHq4iYoCdZlDuk,"Dipl. Kräuterpädagogik",874.50,"kraeuterpaedagoge_50off",https://checkout.institut-sitya.at/b/bJe5kC85E1DveJZc0j0x20G,true,unbekannt,Ja,50%,plink_1SEurdAYh6QHq4iYSPQWpvP9
+plink_1SF46qAYh6QHq4iYivfSvh7f,"Dipl. Wildkräuter Praktikerin",174.50,"wildkraeuter-praktiker_50off",https://checkout.institut-sitya.at/b/aFa5kC99Iful6dtfcv0x20F,true,unbekannt,Ja,50%,plink_1SEut3AYh6QHq4iYipoOKjfn
+plink_1SF46pAYh6QHq4iYyTbmBriE,"Dipl. Knospenkunde",874.50,"knospenkunde_50off",https://checkout.institut-sitya.at/b/00wcN4fy6gypatJfcv0x20E,true,unbekannt,Ja,50%,plink_1SEuu3AYh6QHq4iY2ogHqRAh
+plink_1SF46oAYh6QHq4iYwN7mSkT9,"Dipl. Ayurveda Kräuterspezialistin Ashwagandha",174.50,"ayurveda-kraueterspezialist_50off",https://checkout.institut-sitya.at/b/fZu28q2Lk2HzatJggz0x20D,true,unbekannt,Ja,50%,plink_1SEuv6AYh6QHq4iYLyeba9xX
+plink_1SF46mAYh6QHq4iY7HAdzcPY,"Dipl. Kräuterteeberatung für Stressabbau",174.50,"kraeuterteeberater_50off",https://checkout.institut-sitya.at/b/bJefZg1HgdmdbxNggz0x20C,true,unbekannt,Ja,50%,plink_1SEuwCAYh6QHq4iY5AQoO0IS
+plink_1SF46lAYh6QHq4iY6sd4Tz5m,"Dipl. Kräuterberatung Anbau Innenbereich",174.50,"kraeuterberater-anbau-innen_50off",https://checkout.institut-sitya.at/b/3cI28q5Xw0zr45laWf0x20B,true,unbekannt,Ja,50%,plink_1SEuxQAYh6QHq4iYRfknM7WF
+plink_1SF46kAYh6QHq4iYVx7uD5gk,"Dipl. Humanenergetik",1124.50,"humanenergetiker_50off",https://checkout.institut-sitya.at/b/7sY5kC5Xw2HzfO32pJ0x20A,true,unbekannt,Ja,50%,plink_1SF0DgAYh6QHq4iYT7MKSvJy
+plink_1SF46iAYh6QHq4iY41y3R2co,"Dipl. TCM Ernährungstraining",174.50,"tcm-ernaehrungstraining_50off",https://checkout.institut-sitya.at/b/bJe00i2Lkbe531haWf0x20z,true,unbekannt,Nein,50%,plink_1SF1roAYh6QHq4iYel2yVKn6
+plink_1SF1roAYh6QHq4iYel2yVKn6,"Dipl. TCM Ernährungstraining",1.00,"-",https://checkout.institut-sitya.at/b/fZubJ02Lkci931he8r0x20y,true,unbekannt,Nein,-,-
+plink_1SF0DgAYh6QHq4iYT7MKSvJy,"Dipl. Humanenergetik",2249.00,"-",https://checkout.institut-sitya.at/b/aFadR8clU4PH8lB2pJ0x20x,true,unbekannt,Ja,-,-
+plink_1SEuxQAYh6QHq4iYRfknM7WF,"Dipl. Kräuterberatung Anbau Innenbereich",349.00,"-",https://checkout.institut-sitya.at/b/bJe6oGgCa95X9pFe8r0x20w,true,unbekannt,Ja,-,-
+plink_1SEuwCAYh6QHq4iY5AQoO0IS,"Dipl. Kräuterteeberatung für Stressabbau",349.00,"-",https://checkout.institut-sitya.at/b/dRm9ASgCa5TLfO31lF0x20v,true,unbekannt,Ja,-,-
+plink_1SEuv6AYh6QHq4iYLyeba9xX,"Dipl. Ayurveda Kräuterspezialistin Ashwagandha",349.00,"-",https://checkout.institut-sitya.at/b/4gM8wO71A1Dv45l8O70x20u,true,unbekannt,Ja,-,-
+plink_1SEuu3AYh6QHq4iY2ogHqRAh,"Dipl. Knospenkunde",1749.00,"-",https://checkout.institut-sitya.at/b/dRmeVceu295X1Xdggz0x20t,true,unbekannt,Ja,-,-
+plink_1SEut3AYh6QHq4iYipoOKjfn,"Dipl. Wildkräuter Praktikerin",349.00,"-",https://checkout.institut-sitya.at/b/14A7sK99I1DvatJ8O70x20s,true,unbekannt,Ja,-,-
+plink_1SEurdAYh6QHq4iYSPQWpvP9,"Dipl. Kräuterpädagogik",1749.00,"-",https://checkout.institut-sitya.at/b/3cI00i85E4PH6dtfcv0x20r,true,unbekannt,Ja,-,-
+plink_1SEuqHAYh6QHq4iYsOMXYwLO,"Dipl. Ayurvedisches Ernährungstraining",349.00,"-",https://checkout.institut-sitya.at/b/8x28wOclU81TeJZe8r0x20q,true,unbekannt,Ja,-,-
+plink_1SEup4AYh6QHq4iYKW2zP5QR,"Dipl. TCM Ernährungstraining",349.00,"-",https://checkout.institut-sitya.at/b/5kQ14m4Ts5TL45l7K30x20p,true,unbekannt,Ja,-,-
+plink_1SEuoDAYh6QHq4iYz4i71G3d,"Dipl. Ernährungstraining",1749.00,"-",https://checkout.institut-sitya.at/b/bJe9AS3Po1Dv9pFggz0x20o,true,unbekannt,Ja,-,-
+plink_1SEumAAYh6QHq4iYRdPG43N9,"Dipl. Fachpraktikum für Shinrin Yoku (Waldbaden)",349.00,"-",https://checkout.institut-sitya.at/b/5kQaEWgCagyp1Xdggz0x20n,true,unbekannt,Ja,-,-
+plink_1SEuhCAYh6QHq4iYS0daUqx3,"Dipl. Resilienztraining",1749.00,"-",https://checkout.institut-sitya.at/b/5kQbJ0bhQfulfO3fcv0x20m,true,unbekannt,Ja,-,-
+plink_1SEudOAYh6QHq4iYgWclHe0j,"Dipl. Achtsamkeitstraining",1749.00,"-",https://checkout.institut-sitya.at/b/6oU7sK2Lk5TL59p5BV0x20l,true,unbekannt,Ja,-,-
+plink_1SEuVGAYh6QHq4iYtYm7rg9t,"Dipl. Natur- und Erlebnispädagogik",1749.00,"-",https://checkout.institut-sitya.at/b/8x214m0Dcbe56dtc0j0x20k,true,unbekannt,Ja,-,-
+plink_1SEuONAYh6QHq4iYInBSyOno,"Dipl. Mentaltraining",1749.00,"-",https://checkout.institut-sitya.at/b/cNi28qbhQ5TL7hx7K30x20j,true,unbekannt,Ja,-,-
+plink_1SEuMyAYh6QHq4iYmaoAUDRf,"Dipl. Feng Shui Pflanzenberatung für Innenräume",349.00,"-",https://checkout.institut-sitya.at/b/14A3cu0Dceqh31h9Sb0x20i,true,unbekannt,Ja,-,-
+plink_1SEuLPAYh6QHq4iY52f99XJ5,"Dipl. Fachberatung für Räuchermischungen",349.00,"-",https://checkout.institut-sitya.at/b/fZu28q4Ts5TL6dt6FZ0x20h,true,unbekannt,Ja,-,-
+plink_1SEuK8AYh6QHq4iY9wW6Toql,"Dipl. Praktikum für Schamanische Rituale",349.00,"-",https://checkout.institut-sitya.at/b/3cIeVcdpY2Hz1Xd6FZ0x20g,true,unbekannt,Ja,-,-
+plink_1SEuIhAYh6QHq4iY97jj2lg9,"Dipl. Klangenergetik",649.00,"-",https://checkout.institut-sitya.at/b/4gMeVc2Lkful1Xde8r0x20f,true,unbekannt,Ja,-,-
+plink_1SEuGAAYh6QHq4iYF8xznOJf,"Dipl. Bachblütenberatung",649.00,"-",https://checkout.institut-sitya.at/b/9B67sK2Lkful59p8O70x20e,true,unbekannt,Ja,-,-
+plink_1SEuCKAYh6QHq4iYAxYO8nM1,"Dipl. Aromaberatung",649.00,"-",https://checkout.institut-sitya.at/b/4gM9AS99I5TL45laWf0x20d,true,unbekannt,Ja,-,-
+plink_1SEuAQAYh6QHq4iYI2CvkPEQ,"Dipl. Kinesiologie",1749.00,"-",https://checkout.institut-sitya.at/b/9B63cubhQaa1gS79Sb0x20c,true,unbekannt,Ja,-,-
+plink_1SEu8bAYh6QHq4iYYzBV5pem,"Dipl. Farbenergetik",1749.00,"-",https://checkout.institut-sitya.at/b/14A28q99IfulbxN5BV0x20b,true,unbekannt,Ja,-,-
+plink_1SEu6oAYh6QHq4iYiREfETSH,"Vitalcoach für Pferde",649.00,"-",https://checkout.institut-sitya.at/b/bJe6oG4Ts4PH31he8r0x20a,true,unbekannt,Ja,-,-
+plink_1SEu5IAYh6QHq4iYzvXFkdUz,"Dipl. Bachblütenberatung für Hunde",649.00,"-",https://checkout.institut-sitya.at/b/cNifZgdpYbe5atJd4n0x209,true,unbekannt,Ja,-,-
+plink_1SEu2AAYh6QHq4iY2BH0YaGy,"Vitalcoach für Katzen",649.00,"-",https://checkout.institut-sitya.at/b/6oU28q71Aci97hxe8r0x208,true,unbekannt,Ja,-,-
+plink_1SEtgkAYh6QHq4iYrfbqWF0f,"Vitalcoach für Hunde",649.00,"-",https://checkout.institut-sitya.at/b/bJefZg1Hg3LD1Xd8O70x207,true,unbekannt,Ja,-,-
+plink_1SEtdZAYh6QHq4iYNPgJRR0F,"Basisvtialcoach für Tiere",649.00,"-",https://checkout.institut-sitya.at/b/7sY5kC1Hg5TLdFVe8r0x206,true,unbekannt,Ja,-,-
+plink_1SDtWUAYh6QHq4iYPQc1PWM3,"Dipl. Tierenergetik",2249.00,"-",https://checkout.institut-sitya.at/b/6oUfZgclU3LDfO31lF0x205,true,unbekannt,Ja,-,-
+plink_1SDt2pAYh6QHq4iYF87ocPeg,"Dipl. Humanenergetik",2249.00,"-",https://checkout.institut-sitya.at/b/bJe14meu281T6dt5BV0x204,true,unbekannt,Ja,-,-
+plink_1SDVz4AYh6QHq4iYDZn9R4ue,"Dipl. Humanenergetik",1874.17,"-",https://checkout.institut-sitya.at/b/aFa3cu3Po5TLatJ6FZ0x203,false,unbekannt,Ja,-,-
+plink_1SDVvUAYh6QHq4iYOB7Rhmfc,"Dipl. Humanenergetik",1874.17,"-",https://checkout.institut-sitya.at/b/00w8wO0Dc5TLeJZ9Sb0x202,false,unbekannt,Nein,-,-
+plink_1SDThbAYh6QHq4iYGY8529qe,"Dipl. Mentaltraining falsch",1749.00,"mentaltraining_premium",https://checkout.institut-sitya.at/b/14A3cu0Dc0zr1Xd6FZ0x201,false,unbekannt,Ja,-,-
+plink_1SC6xmAYh6QHq4iYL3dofAD1,"50 % Premium+ Gratis Kurs",937.08,"-",https://checkout.institut-sitya.at/b/bJe5kCdpYaa16dtggz0x200,true,unbekannt,Nein,-,-
