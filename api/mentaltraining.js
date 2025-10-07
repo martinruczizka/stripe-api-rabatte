@@ -8,11 +8,32 @@ export default async function handler(req, res) {
     const kurs = "mentaltraining";
     const priceId = "price_1SDt6cAYh6QHq4iYRBhzMjwi"; // Live Price-ID
 
-    // Rabattcode prüfen
+    // Beispiel: Promotion Code mit Zeitlimit (gültig bis Mittwoch)
+    const expiresAt = Math.floor(new Date("2025-10-08T23:59:59Z").getTime() / 1000); // Mittwoch 08.10.2025, 23:59 UTC
+
+    // Rabattcode prüfen oder neuen mit Ablaufdatum erstellen
     let promoId = null;
     if (rabatt) {
-      const promos = await stripe.promotionCodes.list({ code: rabatt.toUpperCase(), active: true });
-      if (promos.data.length > 0) promoId = promos.data[0].id;
+      const promos = await stripe.promotionCodes.list({ code: rabatt.toUpperCase() });
+
+      if (promos.data.length > 0) {
+        promoId = promos.data[0].id;
+      } else {
+        // Beispiel: Neuen Promotion Code mit Ablaufdatum erzeugen
+        const coupon = await stripe.coupons.create({
+          percent_off: 50,
+          duration: "once",
+        });
+
+        const promo = await stripe.promotionCodes.create({
+          coupon: coupon.id,
+          code: rabatt.toUpperCase(),
+          expires_at: expiresAt, // ⏰ Ablaufdatum (Mittwoch)
+        });
+
+        promoId = promo.id;
+        console.log(`🕐 Neuer zeitbegrenzter Promotion Code erstellt: ${promo.code}`);
+      }
     }
 
     // Stripe Checkout-Session erstellen
