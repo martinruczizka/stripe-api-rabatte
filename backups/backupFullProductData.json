@@ -1,0 +1,974 @@
+[
+  {
+    "name": "Dipl. Mentaltraining (Test)",
+    "description": null,
+    "images": [],
+    "metadata": {
+      "lookup_key": "mentaltrainer_test"
+    },
+    "prices": []
+  },
+  {
+    "name": "Dipl. Kräuterberatung Anbau Innenbereich",
+    "description": "4 Lektionen über Kräuteranbau in Innenräumen – begleitetes Selbststudium mit Online-Prüfung, Lernhilfe & Diplom.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfdjY0cmZZUUlOamNpSk5wOGVjNW5FV2l500I7tj15a1"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDVp0AYh6QHq4iYQCrhE51n",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759347378,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9pT0qybjMJZ2l",
+        "recurring": null,
+        "tax_behavior": "exclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 29083,
+        "unit_amount_decimal": "29083"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Feng Shui Pflanzenberatung für Innenräume",
+    "description": "4 Lektionen für Energiearbeit mit Pflanzen – flexibel im Selbststudium mit Online-Prüfung, WhatsApp-Gruppe & Diplom.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfT3Z4dkc4REhhQUplOHBjemJRZDZTTXNm00l7n1xNxx"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDVo3AYh6QHq4iYHrEcwnJl",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759347319,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9pSY4ziqf3iBZ",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 34900,
+        "unit_amount_decimal": "34900"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Kräuterteeberatung für Stressabbau",
+    "description": "4 Lektionen zur Anwendung stresslösender Kräutertees – kompakter Diplomkurs mit Lernhilfe, WhatsApp-Gruppe & Online-Prüfung.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfRmV3R0lxTWVoNmZGWnpiT0xGVFM5ZnA200P3VJ9ktq"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDVnYAYh6QHq4iYc2kQppQN",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759347288,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9pS0PyhsZMOPk",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 34900,
+        "unit_amount_decimal": "34900"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Ayurveda Kräuterspezialistin Ashwagandha",
+    "description": "4 Lektionen mit Fokus auf Ashwagandha – Ayurvedisches Wissen im Selbststudium mit Diplom, Online-Prüfung, WhatsApp-Gruppe & Lernhilfe.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfQ3ozaFJ5VUp0VEZHblE5Wm84SkJRc2lQ00dlizJNks"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDVmvAYh6QHq4iY73OIerhW",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759347249,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9pRfKeJyBXQ8C",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 34900,
+        "unit_amount_decimal": "34900"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Fachberatung für Räuchermischungen",
+    "description": "4 Lektionen zur Raumreinigung & Räucherpraxis – 100 % flexibel mit Diplom, WhatsApp-Gruppe, Lernhilfe & Online-Prüfung.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfSXdoclFMaTJsMUxMdkdTVUROMTljVGU200zJd3cBZn"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDVmVAYh6QHq4iYdvgDiYH8",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759347223,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9pRApCLlHfKui",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 34900,
+        "unit_amount_decimal": "34900"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Ayurvedisches Ernährungstraining",
+    "description": "4 Lektionen über Ayurveda & Ernährungstypen – begleites Selbststudium mit Lernhilfe, Online-Prüfung, WhatsApp-Gruppe & Diplom.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfWmN0d3ljaVF0ZWxwblFwQkQwdDRQNXVY00znxjwwHD"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDVm5AYh6QHq4iYa8gMB71J",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759347197,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9pQ7DusVT8fk2",
+        "recurring": null,
+        "tax_behavior": "exclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 29083,
+        "unit_amount_decimal": "29083"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. TCM Ernährungstraining",
+    "description": "4 Lektionen über TCM & Ernährung – flexibel mit Diplom, Lernhilfe & Online-Prüfung. Kompakt & praxisorientiert.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfYW5iaW9CSUp0bEdUY3RtYVpqeXJBSmhE00VwniQB7o"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDVldAYh6QHq4iYE6lSGAy0",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759347169,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9pQcIwPo23VMl",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 34900,
+        "unit_amount_decimal": "34900"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Praktikum für Schamanische Rituale",
+    "description": "4 Lektionen – Einstieg in energetische Rituale. Online-Prüfung, WhatsApp-Gruppe, Lernhilfe & Diplom inklusive. Jetzt durchstarten!",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfT00xcHRKbm9QYTVlVzd6c0dvNFo3VFhR002YYMM6Sg"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDVlAAYh6QHq4iYj9kJGcuS",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759347140,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9pQBGLCLdiH50",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 34900,
+        "unit_amount_decimal": "34900"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Wildkräuter Praktikerin",
+    "description": "4 Lektionen Wildkräuterwissen – kompakt & flexibel im Selbststudium. Inkl. Diplom, Online-Prüfung, WhatsApp-Gruppe & Lernhilfe.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfY3NydnhBbnlPMHMzUDR0QkhHOGJkVG1E007TL3FXd0"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDVkiAYh6QHq4iYW3phN0xp",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759347112,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9pP1a8Yz8JEOA",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 34900,
+        "unit_amount_decimal": "34900"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Fachpraktikum für Shinrin Yoku (Waldbaden)",
+    "description": "4 Lektionen zur Praxis des Waldbadens – kurz, intensiv & fundiert. Inkl. Lernhilfe, Online-Prüfung, WhatsApp-Gruppe & Diplom.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfRXJzWTJvSWVGazFtVG1uUjNTWDdpRUV200PTTJROLI"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDtIGAYh6QHq4iYQPcyo7T6",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759437604,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9pPakHHRj97NB",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 34900,
+        "unit_amount_decimal": "34900"
+      }
+    ]
+  },
+  {
+    "name": "Vitalcoach für Pferde",
+    "description": "12 Lektionen – Spezialisierung auf Pferde-Vitalcoaching. Mit Lernhilfe, WhatsApp-Gruppe & Online-Prüfung.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfNlFyMDdxNTJDQkE2VXFhNlZ6enpwSzZB00n8G6Tj1B"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDVjgAYh6QHq4iY9uGX6Boq",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759347048,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9pOFQgt3o0T8z",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 64900,
+        "unit_amount_decimal": "64900"
+      }
+    ]
+  },
+  {
+    "name": "Vitalcoach für Hunde",
+    "description": "12 Lektionen – Spezialisierung auf Hunde-Vitalcoaching. Mit Lernhilfe, WhatsApp-Gruppe & Online-Prüfung.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfa3czdFRVTDAzT0FFUUowZ0JJSmRZSlJR00h1Io6eZE"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDVjFAYh6QHq4iYUx43p3ew",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759347021,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9pOezFgepifKT",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 64900,
+        "unit_amount_decimal": "64900"
+      }
+    ]
+  },
+  {
+    "name": "Vitalcoach für Katzen",
+    "description": "12 Lektionen – Spezialisierung auf Katzen-Vitalcoaching. Mit Lernhilfe, WhatsApp-Gruppe & Online-Prüfung.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfWUFHNmhlZHQ5UkVDVWM0aHF0ZEx2UlN300S30F0De3"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDVicAYh6QHq4iYAknDgNB8",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759346982,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9pNl8iGQU6n9Q",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 64900,
+        "unit_amount_decimal": "64900"
+      }
+    ]
+  },
+  {
+    "name": "Basisvtialcoach für Tiere",
+    "description": "12 Lektionen – Einstieg in Tiergesundheit & Vitalcoaching. Mit Lernhilfe, WhatsApp-Gruppe & Online-Prüfung.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfbTFSbXhnQTFWcFY4MHM4aXFuM3hqQ3Z300tYht4Sme"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDVi7AYh6QHq4iYPQbWdODG",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759346951,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9pMoIQRw9aoWj",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 64900,
+        "unit_amount_decimal": "64900"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Bachblütenberatung für Hunde",
+    "description": "8 Lektionen über Bachblütenanwendung bei Hunden – kompaktes Selbststudium mit Lernhilfe, Online-Prüfung & Diplom.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfR1YwcDVSVTFSRHBDVVFadmtJZ3kzUGRr002Cxbiufd"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDVhRAYh6QHq4iYTamM6eQE",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759346909,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9pM6H1DqhBRkh",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 64900,
+        "unit_amount_decimal": "64900"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Klangenergetik",
+    "description": "8 Lektionen zur Klangarbeit & Energieharmonisierung – 100 % flexibel mit Lernhilfe, Online-Prüfung, WhatsApp-Gruppe & Diplom.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfS0FCUFVMUGxEZ3QybE1INjV3SGdCczhY00lRzB6ov2"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDVgsAYh6QHq4iYqyTh9DIM",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759346874,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9pL93x0BDGGJF",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 64900,
+        "unit_amount_decimal": "64900"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Bachblütenberatung",
+    "description": "12 Lektionen zur Arbeit mit Bachblüten – emotional, fundiert & flexibel. Mit Online-Prüfung, WhatsApp-Gruppe, Lernhilfe & Diplom.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfTDBXNVBPRExmT2ttc3drWm1OQjg0c21U00cB8RZ6NA"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDVgCAYh6QHq4iYBCXIs9cx",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759346832,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9pKei8x5n3f8T",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 64900,
+        "unit_amount_decimal": "64900"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Aromaberatung",
+    "description": "12 Lektionen rund um ätherische Öle & Anwendungen – inkl. WhatsApp-Gruppe, Lernhilfe, Online-Prüfung & Diplom. Kompakt und praxisnah.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfcElqamhLbG1VcmIycVJveklZZ1RJcHNk00CPCpGeoz"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDVfOAYh6QHq4iYluawUqyl",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759346782,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9pKdNzZzHsQLK",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 64900,
+        "unit_amount_decimal": "64900"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Knospenkunde",
+    "description": "24 Lektionen zur Gemmotherapie – begleites Selbststudium mit Online-Prüfung, WhatsApp-Gruppe, Lernhilfe & Diplom. Jetzt flexibel starten!",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfM2cxVEtES29KWGdEeklSdVRBVlU0RTFT00dQQAlOZj"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDUUAAYh6QHq4iYLHwfAAm5",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759342242,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9o6VjWEjqP0FR",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 174900,
+        "unit_amount_decimal": "174900"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Kinesiologie",
+    "description": "24 Lektionen – praxisnahes Selbststudium mit Fokus auf Muskeltests und Energieausgleich. Inkl. Lernhilfe, WhatsApp-Gruppe, Online-Prüfung & Diplom.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfRUh5b2sxMjZEWDJybzRUYjdvRjZ5N1po00GnnR3c6T"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDUTXAYh6QHq4iYk79V35Wo",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759342203,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9o55nl27slr1Q",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 145750,
+        "unit_amount_decimal": "145750"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Farbenergetik",
+    "description": "24 Lektionen über Farbtherapie & Energiearbeit – inkl. Online-Prüfung, WhatsApp-Gruppe, Lernhilfe & Diplom. Ideal zur Erweiterung deiner Methoden.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfWWNLcTBDa3RlenN0MUlXYlQySTNzSU8100S8Gx35sQ"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDtDZAYh6QHq4iYrhW3DooT",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759437313,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9o4ish81VmCfK",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 174900,
+        "unit_amount_decimal": "174900"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Resilienztraining",
+    "description": "24 Lektionen zur Stärkung mentaler Widerstandskraft – 100 % flexibel im Selbststudium mit Lernhilfe, WhatsApp-Gruppe & Online-Prüfung.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfU1ZFeE05QzlRVDliUUtXeU9YMkxiUk1S00zlzZ5VMA"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDURxAYh6QHq4iY5aK9ETIQ",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759342105,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9o4jd6asVFaKa",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 174900,
+        "unit_amount_decimal": "174900"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Achtsamkeitstraining",
+    "description": "24 Lektionen für innere Balance – inkl. Lernhilfe, WhatsApp-Gruppe, E-Mail-Betreuung & Online-Prüfung. Flexibler Einstieg jederzeit möglich.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfekNYNXFUTkVwOHdVN3pXYnBkcTZsNThM00UCrnZqou"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDURSAYh6QHq4iYFno58oYq",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759342074,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9o3MH6SKcdQzw",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 174900,
+        "unit_amount_decimal": "174900"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Natur- und Erlebnispädagogik",
+    "description": "24 Lektionen zu Naturpädagogik & Selbsterfahrung – flexibel im Selbststudium. Inkl. WhatsApp-Gruppe, Lernhilfe, Online-Prüfung & Diplom.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfS1BPemtBUmlpUUNUNnBsSHA4MTZyM1Vo00y4exYODc"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDUPeAYh6QHq4iYPqZODfkT",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759341962,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9o1XRq6svwOky",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 174900,
+        "unit_amount_decimal": "174900"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Mentaltraining",
+    "description": "24 Lektionen zur Persönlichkeitsentwicklung – flexibel im Selbststudium. Inkl. WhatsApp-Gruppe, Lernhilfe, Online-Prüfung & anerkanntem Diplom.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfcmpaOVJtOUVLME1RejI0TWkxMHFpMjhO00cRz08UUW"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDt6cAYh6QHq4iYRBhzMjwi",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759436882,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9o0kfBOyqq0lf",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 174900,
+        "unit_amount_decimal": "174900"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Kräuterpädagogik",
+    "description": "24 Lektionen über Kräuterwissen & Pflanzenkunde – begleites Selbststudium mit WhatsApp-Gruppe, Lernhilfe, Online-Prüfung & Diplom.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfbU9lZGg3VVh5VEplaktsNFBidVhLbk9100mfIyAfas"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDUDzAYh6QHq4iYWvsLjB7R",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759341239,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": "test",
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9nppkh0Ev2Do4",
+        "recurring": null,
+        "tax_behavior": "exclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 145750,
+        "unit_amount_decimal": "145750"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Ernährungstraining",
+    "description": "24 Lektionen rund um ganzheitliche Ernährung – 100 % flexibel mit Online-Prüfung, WhatsApp-Gruppe, Lernhilfe & Diplom. Starte jetzt deine Ausbildung!",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfanNNOHNJN2hNT0ZmMzlsSFkyVW9OaGVu007uj3ckTL"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDtAmAYh6QHq4iYSeI2CBtX",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759437140,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T9nhVODvvHRGb0",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 174900,
+        "unit_amount_decimal": "174900"
+      }
+    ]
+  },
+  {
+    "name": "50 % Premium+ Gratis Kurs",
+    "description": "Aktionspaket: Premium-Plus Kurs zum halben Preis + 1 Kurs gratis (laut Auswahl)",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfVVVQQnZtZnJONmRUMFk5SWgzaFVNeWJp00KordvQAJ"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SC6S6AYh6QHq4iY9mOarogE",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759011530,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T8NCzg5T4fxaka",
+        "recurring": null,
+        "tax_behavior": "exclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 93708,
+        "unit_amount_decimal": "93708"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Mentaltraining falsch",
+    "description": "Online-Ausbildung mit Diplomabschluss. Flexibel lernen im eigenen Tempo, inkl. Lernhilfe, Online-Prüfung & E-Mail-Support. Start jederzeit möglich – ideale Erweiterung für Coaching & Selbstentwicklung.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfTmUyS3RrNUFzUGFFckphUVg3R2FqOEpl00uFZ7wJvC"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDUGJAYh6QHq4iYcrgIHRcK",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759341383,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T7t3C4dUrVm8Vy",
+        "recurring": null,
+        "tax_behavior": "exclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 145750,
+        "unit_amount_decimal": "145750"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Tierenergetik",
+    "description": "48 Lektionen – ganzheitliche Tiergesundheit in 4 Modulen (Basis, Katze, Hund, Pferd). Inkl. WhatsApp-Gruppe, Lernhilfe & Online-Prüfung. Für das vollständige Diplom bitte einfach den Gesamtkurs buchen.",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfaDc4RlNnY3JRdHZ6ZnlhMXVZMkhBNDRy00uFc42icw"
+    ],
+    "metadata": {},
+    "prices": [
+      {
+        "id": "price_1SDrcQAYh6QHq4iYo4pknTcy",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759431166,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T7t014n3DW0bO3",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 224900,
+        "unit_amount_decimal": "224900"
+      }
+    ]
+  },
+  {
+    "name": "Dipl. Humanenergetik",
+    "description": "Ganzheitliche Ausbildung mit 6 Modulen & Diplom-Abschluss. Flexible Studiendauer, Online-Prüfung, inkl. Lernhilfe, E-Mail-Betreuung & WhatsApp-Gruppen. Start jederzeit möglich – professioneller Einstieg in die Humanenergetik",
+    "images": [
+      "https://files.stripe.com/links/MDB8YWNjdF8xT20xQkpBWWg2UUhxNGlZfGZsX2xpdmVfMXZXaWRUYTNaVVZFSFlyQ0NvdW40N21300PspFwDvl"
+    ],
+    "metadata": {
+      "test": "test"
+    },
+    "prices": [
+      {
+        "id": "price_1SDsgPAYh6QHq4iYGLwGCU9P",
+        "object": "price",
+        "active": true,
+        "billing_scheme": "per_unit",
+        "created": 1759435257,
+        "currency": "eur",
+        "custom_unit_amount": null,
+        "livemode": true,
+        "lookup_key": null,
+        "metadata": {},
+        "nickname": null,
+        "product": "prod_T7sxWkZdokVWit",
+        "recurring": null,
+        "tax_behavior": "inclusive",
+        "tiers_mode": null,
+        "transform_quantity": null,
+        "type": "one_time",
+        "unit_amount": 224900,
+        "unit_amount_decimal": "224900"
+      }
+    ]
+  }
+]

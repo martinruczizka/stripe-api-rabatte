@@ -1,16 +1,27 @@
 {
-  "name": "stripe-product-mapper",
+  "name": "stripe-api-rabatte",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Stripe API für Kurse, Preise, Rabatte und Redirects",
+  "type": "module",
+  "main": "src/listProducts.js",
   "scripts": {
+    "list": "node src/listProducts.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "stripe",
+    "checkout",
+    "api",
+    "rabatte",
+    "sitya"
+  ],
+  "author": "Martin Ruczizka",
   "license": "ISC",
   "dependencies": {
+    "csv-parser": "^3.2.0",
     "dotenv": "^17.2.3",
+    "exceljs": "^4.4.0",
+    "googleapis": "^161.0.0",
     "node-fetch": "^3.3.2",
     "stripe": "^19.1.0"
   }
