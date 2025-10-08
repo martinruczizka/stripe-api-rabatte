@@ -43,7 +43,7 @@ if (!stripeTestKey || !stripeTestKey.startsWith('sk_test_')) {
   process.exit(1);
 }
 
-const stripe = new Stripe(stripeTestKey, { apiVersion: '2025-03-31' });
+const stripe = new Stripe(stripeTestKey, { apiVersion: '2024-06-20' });
 console.log(`🔑 Verwende Key: TEST`);
 
 const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
@@ -95,25 +95,25 @@ async function createTestCheckoutSession(mainProductId, optionalProductIds) {
       }
     }
 
-    const optionalItems = [];
+    const lineItems = [
+      {
+        price: mainPriceId,
+        quantity: 1,
+      },
+    ];
     for (const optProductId of optionalProductIds) {
       const optProductData = await validateProductAndPrice(optProductId);
       if (optProductData) {
-        optionalItems.push({
+        lineItems.push({
           price: optProductData.priceId,
           quantity: 1,
+          adjustable_quantity: { enabled: true },
         });
       }
     }
 
     const session = await stripe.checkout.sessions.create({
-      line_items: [
-        {
-          price: mainPriceId,
-          quantity: 1,
-        },
-      ],
-      optional_items: optionalItems, // Verwendung von optional_items (API 2025-03-31)
+      line_items: lineItems,
       mode: 'payment',
       success_url: 'https://example.com/success?session_id={CHECKOUT_SESSION_ID}',
       cancel_url: 'https://example.com/cancel',
@@ -126,7 +126,7 @@ async function createTestCheckoutSession(mainProductId, optionalProductIds) {
     console.log(`✅ Test-Checkout-Session erstellt für ${mainProduct.name} (${mainProductId}, key: ${mainKey}):`);
     console.log(`   URL: ${session.url}`);
     console.log(`   Mit Rabatt: ${session.url}?rabatt=${rabatt}`);
-    console.log(`   Optionale Items: ${optionalItems.length} (${optionalItems.map(item => item.price).join(', ')})`);
+    console.log(`   Optionale Items: ${lineItems.length - 1} (${lineItems.slice(1).map(item => item.price).join(', ')})`);
   } catch (err) {
     console.error(`❌ Fehler bei Checkout-Session für ${mainProductId}: ${err.message}`);
   }
