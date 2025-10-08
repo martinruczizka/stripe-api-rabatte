@@ -103,7 +103,6 @@ async function createTestCheckoutSession(mainProductId) {
       if (optProductData) {
         optionalItems.push({
           price: optProductData.priceId,
-          description: `Optional: ${optProductData.key}`,
           adjustable_quantity: { enabled: true, minimum: 0, maximum: 1 },
         });
       }
