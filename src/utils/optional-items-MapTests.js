@@ -1,4 +1,4 @@
-// src/utils/optional-items-MapTests.js
+// /workspaces/stripe-product-mapper/src/utils/optional-items-MapTests.js
 export const optionalItemsMapTests = {
   // 🧘 ENERGETIK EXKLUSIV
   "prod_TBx60WNkX2qt5H": ["prod_T9megpJzxDa3Hw", "prod_TBx6SvkJvo12PE", "prod_TBx6XCAkvirUWI", "prod_TBx6fHVSi1cO0c", "prod_TBx6SiknnBM7SQ", "prod_TBx6DVd8qgxg3z"], // Feng Shui Innenräume
@@ -10,12 +10,10 @@ export const optionalItemsMapTests = {
   "prod_TBx6SvkJvo12PE": ["prod_T9megpJzxDa3Hw", "prod_TBx6XCAkvirUWI", "prod_TBx6fHVSi1cO0c", "prod_TBx6SiknnBM7SQ", "prod_TBx6DVd8qgxg3z"], // Kinesiologie
   "prod_TBx6XCAkvirUWI": ["prod_T9megpJzxDa3Hw", "prod_TBx6SvkJvo12PE", "prod_TBx6fHVSi1cO0c", "prod_TBx6SiknnBM7SQ"], // Farbenergetik
   "prod_T9megpJzxDa3Hw": ["prod_TBx6SvkJvo12PE", "prod_TBx6XCAkvirUWI", "prod_TBx6fHVSi1cO0c", "prod_TBx6SiknnBM7SQ", "prod_TBx6DVd8qgxg3z"], // Humanenergetik
-
   // 🥗 ERNÄHRUNG UND WELLNESS
   "prod_TBx6gKGstmXFjN": ["prod_TACoUJJ1WJKMI1", "prod_TBx6UUW8DhCkkY"], // Ayurvedisch
   "prod_TBx6UUW8DhCkkY": ["prod_TACoUJJ1WJKMI1", "prod_TBx6gKGstmXFjN"], // TCM
   "prod_TACoUJJ1WJKMI1": ["prod_TBx6gKGstmXFjN", "prod_TBx6UUW8DhCkkY"], // Ernährungstraining
-
   // 🐾 GANZHEITLICHE TIERGESUNDHEIT
   "prod_TBx6BwNNgWxG3k": ["prod_T9mfwA0CMVlc91", "prod_TBx6wwFiSk6ixQ", "prod_TBx6QCmf5OGik4", "prod_TBx6hVadtfAtfq"], // Katzen
   "prod_TBx6wwFiSk6ixQ": ["prod_T9mfwA0CMVlc91", "prod_TBx6BwNNgWxG3k", "prod_TBx6QCmf5OGik4", "prod_TBx6hVadtfAtfq"], // Hunde
@@ -23,7 +21,6 @@ export const optionalItemsMapTests = {
   "prod_TBx6QCmf5OGik4": ["prod_T9mfwA0CMVlc91", "prod_TBx6BwNNgWxG3k", "prod_TBx6wwFiSk6ixQ", "prod_TBx6hVadtfAtfq"], // Basis
   "prod_T9mfwA0CMVlc91": ["prod_TBx6BwNNgWxG3k", "prod_TBx6wwFiSk6ixQ", "prod_TBx6hVadtfAtfq", "prod_TBx6QCmf5OGik4"], // Tierenergetik
   "prod_TBx6cgYV9s8Jlw": ["prod_T9mfwA0CMVlc91", "prod_TBx6BwNNgWxG3k", "prod_TBx6wwFiSk6ixQ", "prod_TBx6hVadtfAtfq"], // Bachblüten Hunde
-
   // 🌿 NATUR- UND KRÄUTERLEHRE
   "prod_TBx6b9BrnlYu58": ["prod_TACo4pE4TC10Si", "prod_TBx6jPYSLUYbKj", "prod_TBx6QaLGnvT6Iq", "prod_TBx6u1wAULwWNN"], // Ashwagandha
   "prod_TBx6h64dhmeWmg": ["prod_TACo4pE4TC10Si", "prod_TBx6jPYSLUYbKj", "prod_TBx6QaLGnvT6Iq", "prod_TBx6u1wAULwWNN"], // Kräutertee
@@ -31,11 +28,70 @@ export const optionalItemsMapTests = {
   "prod_TBx6u1wAULwWNN": ["prod_TACo4pE4TC10Si", "prod_TBx6jPYSLUYbKj", "prod_TBx6b9BrnlYu58", "prod_TBx6QaLGnvT6Iq"], // Anbau Innenbereich
   "prod_TACo4pE4TC10Si": ["prod_TBx6jPYSLUYbKj", "prod_TBx6b9BrnlYu58", "prod_TBx6QaLGnvT6Iq", "prod_TBx6h64dhmeWmg"], // Kräuterpädagogik
   "prod_TBx6jPYSLUYbKj": ["prod_TACo4pE4TC10Si", "prod_TBx6b9BrnlYu58", "prod_TBx6QaLGnvT6Iq", "prod_TBx6h64dhmeWmg"], // Knospenkunde
-
   // 💫 PERSÖNLICHKEITSENTWICKLUNG
   "prod_T9mgUomiUhdbCi": ["prod_TBx6EZTh4KgTqh", "prod_TBx6VmlBefkCDm", "prod_TBx7xGNMTXSduF", "prod_TBx6oIb6F3Eg5C"], // Mentaltraining
   "prod_TBx6EZTh4KgTqh": ["prod_T9mgUomiUhdbCi", "prod_TBx6VmlBefkCDm", "prod_TBx7xGNMTXSduF", "prod_TBx6oIb6F3Eg5C"], // Achtsamkeit
   "prod_TBx6VmlBefkCDm": ["prod_T9mgUomiUhdbCi", "prod_TBx6EZTh4KgTqh", "prod_TBx7xGNMTXSduF", "prod_TBx6oIb6F3Eg5C"], // Resilienz
   "prod_TBx7xGNMTXSduF": ["prod_T9mgUomiUhdbCi", "prod_TBx6EZTh4KgTqh", "prod_TBx6VmlBefkCDm", "prod_TBx6oIb6F3Eg5C"], // Natur- und Erlebnispädagogik
   "prod_TBx6oIb6F3Eg5C": ["prod_T9mgUomiUhdbCi", "prod_TBx6EZTh4KgTqh", "prod_TBx6VmlBefkCDm"], // Waldbaden
+};
+
+export const KEYS_MAP = {
+  'prod_TBx6SiknnBM7SQ': 'aromaberater',
+  'prod_TBx6fHVSi1cO0c': 'bachbluetenberater',
+  'prod_TBx6EkQidwn3Ze': 'fachberater-raeuchermischungen',
+  'prod_TBx6XCAkvirUWI': 'farbtherapie',
+  'prod_TBx60WNkX2qt5H': 'feng-shui-pflanzenberatung',
+  'prod_T9megpJzxDa3Hw': 'humanenergetiker',
+  'prod_TBx6SvkJvo12PE': 'kinesiologie',
+  'prod_TBx6DVd8qgxg3z': 'klangenergetiker',
+  'prod_TBx6Rd44XDkvQ2': 'schamanische-rituale',
+  'prod_TBx6gKGstmXFjN': 'ayurveda-ernaehrungstraining',
+  'prod_TACoUJJ1WJKMI1': 'ernaehrungstrainer',
+  'prod_TBx6UUW8DhCkkY': 'tcm-ernaehrungstraining',
+  'prod_TBx6QCmf5OGik4': 'tierenergetiker-basis',
+  'prod_T9mfwA0CMVlc91': 'tierenergetiker',
+  'prod_TBx6wwFiSk6ixQ': 'tierenergetiker-hund',
+  'prod_TBx6BwNNgWxG3k': 'tierenergetiker-katze',
+  'prod_TBx6hVadtfAtfq': 'tierenergetiker-pferd',
+  'prod_TBx6cgYV9s8Jlw': 'bachbluetenhunde',
+  'prod_TBx6b9BrnlYu58': 'ayurveda-kraueterspezialist',
+  'prod_TBx6jPYSLUYbKj': 'knospenkunde',
+  'prod_TBx6u1wAULwWNN': 'kraeuterberater-anbau-innen',
+  'prod_TACo4pE4TC10Si': 'kraeuterpaedagoge',
+  'prod_TBx6h64dhmeWmg': 'kraeuterteeberater',
+  'prod_TBx6QaLGnvT6Iq': 'wildkraeuter-praktiker',
+  'prod_TBx6EZTh4KgTqh': 'achtsamkeitstrainer',
+  'prod_TBx6oIb6F3Eg5C': 'fachpraktikum-shinrin-yoku',
+  'prod_T9mgUomiUhdbCi': 'mentaltrainer',
+  'prod_TBx7xGNMTXSduF': 'naturunderlebnispaedagoge',
+  'prod_TBx6VmlBefkCDm': 'resilienztrainer',
+};
+
+export const PRICE_MAP = {
+  'aromaberater': 'price_1SFxDfAYh6QHq4iY3zSLQHYl',
+  'bachbluetenberater': 'price_1SFxDiAYh6QHq4iYjXx9zGFF',
+  'humanenergetiker': 'price_1SFfUlAYh6QHq4iYcEZnN8La',
+  'kinesiologie': 'price_1SFfUsAYh6QHq4iYG36WngUx',
+  'farbtherapie': 'price_1SFfUYAYh6QHq4iYSw9GFTAD',
+  'klangenergetiker': 'price_1SFfUxAYh6QHq4iY85FVP3FT',
+  'ayurveda-ernaehrungstraining': 'price_1SFfTyAYh6QHq4iYuDMUCrZM',
+  'tcm-ernaehrungstraining': 'price_1SFfVxAYh6QHq4iY3wdl0Owt',
+  'ernaehrungstrainer': 'price_1SFfUGAYh6QHq4iYpigDW2yR',
+  'tierenergetiker-katze': 'price_1SFfWNAYh6QHq4iYEibYVgmi',
+  'tierenergetiker-hund': 'price_1SFfWIAYh6QHq4iYSr7WtIdV',
+  'tierenergetiker-pferd': 'price_1SFfWSAYh6QHq4iYYV1HrYaE',
+  'tierenergetiker-basis': 'price_1SFfTcAYh6QHq4iY7tV8Z5Wg',
+  'tierenergetiker': 'price_1SFfW5AYh6QHq4iYpg5XSdEf',
+  'ayurveda-kraueterspezialist': 'price_1SFfV2AYh6QHq4iYk51KxYNN',
+  'kraeuterteeberater': 'price_1SFfVNAYh6QHq4iYea00TEz1',
+  'wildkraeuter-praktiker': 'price_1SFfVAAYh6QHq4iYbfsrX6lx',
+  'kraeuterberater-anbau-innen': 'price_1SFfWBAYh6QHq4iYhbhq72h3',
+  'kraeuterpaedagoge': 'price_1SFfVIAYh6QHq4iY4ZUMG6uQ',
+  'knospenkunde': 'price_1SFfTrAYh6QHq4iYrODnuiJ5',
+  'mentaltrainer': 'price_1SFfThAYh6QHq4iYb6hYELPl',
+  'achtsamkeitstrainer': 'price_1SFfVSAYh6QHq4iYQqVJMOmq',
+  'resilienztrainer': 'price_1SFfVrAYh6QHq4iYQnjMiy6W',
+  'naturunderlebnispaedagoge': 'price_1SFfVhAYh6QHq4iYn7an5eTW',
+  'fachpraktikum-shinrin-yoku': 'price_1SFhNtAYh6QHq4iYrmlSTbyn',
 };
