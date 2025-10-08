@@ -90,16 +90,16 @@ export default async function handler(req, res) {
     // Hauptprodukt
     const lineItems = [{ price: priceId, quantity: 1 }];
 
-    // Optionale Items
+    // Optionale Items (max. 3 für UX und Performance)
     const optionalItems = [];
-    for (const optProductId of optionalProductIds) {
+    for (const optProductId of optionalProductIds.slice(0, 3)) {
       console.log(`Fetching price for optional product: ${optProductId}`);
       const prices = await stripe.prices.list({ product: optProductId, active: true, limit: 1 });
       console.log(`Price response for ${optProductId}:`, prices.data);
       if (prices.data.length > 0) {
         optionalItems.push({
           price: prices.data[0].id,
-          quantity: 0,
+          description: `Optional: ${KEYS_MAP[optProductId]}`,
           adjustable_quantity: { enabled: true, minimum: 0, maximum: 1 },
         });
       }
@@ -139,6 +139,7 @@ export default async function handler(req, res) {
       cancel_url: 'https://example.com/cancel',
       invoice_creation: { enabled: true },
       discounts: promoId ? [{ promotion_code: promoId }] : [],
+      allow_promotion_codes: true,
       metadata: { kurs, rabatt: rabatt || 'none' },
       shipping_address_collection: { allowed_countries: ['AT'] },
     });
