@@ -264,4 +264,61 @@ async function updateStripeFromSheet(spreadsheetId) {
             metadata: { type: 'main' },
           });
           defaultPriceId = newPrice.id;
-          console.log(`💵 Neuer Preis erstellt (TEST) für ${productName}: ${newPrice.id} (${(unit probarbeitung los!
+          console.log(`💵 Neuer Preis erstellt (TEST) für ${productName}: ${newPrice.id} (${(unitAmount / 100).toFixed(2)} ${currency})`);
+        }
+      } else if (!matchingPrice) {
+        const newPrice = await stripe.prices.create({
+          product: product.id,
+          unit_amount: unitAmount,
+          currency: currency.toLowerCase(),
+          tax_behavior: taxBehavior,
+          recurring,
+          metadata: { type: 'main' },
+        });
+        defaultPriceId = newPrice.id;
+        console.log(`💵 Neuer Preis erstellt (TEST) für ${productName}: ${newPrice.id} (${(unitAmount / 100).toFixed(2)} ${currency})`);
+      } else {
+        defaultPriceId = matchingPrice.id;
+        console.log(`✅ Preis bereits aktuell (TEST) für ${productName}: ${matchingPrice.id}`);
+      }
+
+      if (isDefaultPrice && product.default_price !== defaultPriceId) {
+        await stripe.products.update(product.id, { default_price: defaultPriceId });
+        console.log(`📌 Default-Preis gesetzt (TEST) für ${productName}: ${defaultPriceId}`);
+      }
+
+      if (optionalItemsMapTests[product.id]) {
+        console.log(`🛒 Verarbeite ${optionalItemsMapTests[product.id].length} optionale Items für ${productName} (${product.id})...`);
+        for (const optProductId of optionalItemsMapTests[product.id]) {
+          const optProductData = await validateProductAndPrice(optProductId, {
+            unitAmount,
+            currency,
+            taxBehavior,
+            recurring,
+            type: 'optional',
+          });
+          if (!optProductData) {
+            console.warn(`⚠️ Optionales Produkt ${optProductId} konnte nicht validiert werden.`);
+            continue;
+          }
+          const { product: optProduct, priceId: optPriceId } = optProductData;
+          console.log(`🛒 Optionales Item konfiguriert (TEST): ${optProduct.name} (${optPriceId}), Menge: 1 (fest)`);
+        }
+      }
+
+      await wait(200);
+    }
+
+    console.log('🏁 Update mit optionalen Items abgeschlossen (TEST)!');
+    console.log('💡 Verwende die Preise in Checkout-Sessions mit optional_items Parameter.');
+  } catch (err) {
+    console.error('❌ Fehler beim Update (TEST):', err.message);
+  }
+}
+
+async function runUpdate() {
+  const spreadsheetId = process.env.GOOGLE_SHEET_ID;
+  await updateStripeFromSheet(spreadsheetId);
+}
+
+runUpdate();
