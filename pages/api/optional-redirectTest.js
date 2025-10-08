@@ -139,7 +139,6 @@ export default async function handler(req, res) {
       cancel_url: 'https://example.com/cancel',
       invoice_creation: { enabled: true },
       discounts: promoId ? [{ promotion_code: promoId }] : [],
-      allow_promotion_codes: true,
       metadata: { kurs, rabatt: rabatt || 'none' },
       shipping_address_collection: { allowed_countries: ['AT'] },
     });
