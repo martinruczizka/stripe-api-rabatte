@@ -65,7 +65,7 @@ async function validateProductAndPrice(productId) {
   }
 }
 
-async function createTestCheckoutSession(mainProductId, optionalProductIds) {
+async function createTestCheckoutSession(mainProductId) {
   try {
     const mainProductData = await validateProductAndPrice(mainProductId);
     if (!mainProductData) {
@@ -74,6 +74,7 @@ async function createTestCheckoutSession(mainProductId, optionalProductIds) {
     }
     const { product: mainProduct, priceId: mainPriceId, key: mainKey } = mainProductData;
     const rabatt = 'dasisteinebeispielaktion';
+    const optionalProductIds = optionalItemsMapTests[mainProductId] || [];
 
     let promoId = null;
     if (rabatt) {
@@ -97,12 +98,12 @@ async function createTestCheckoutSession(mainProductId, optionalProductIds) {
 
     const lineItems = [{ price: mainPriceId, quantity: 1 }];
     const optionalItems = [];
-    for (const optProductId of optionalProductIds) {
+    for (const optProductId of optionalProductIds.slice(0, 3)) {
       const optProductData = await validateProductAndPrice(optProductId);
       if (optProductData) {
         optionalItems.push({
           price: optProductData.priceId,
-          quantity: 0,
+          description: `Optional: ${optProductData.key}`,
           adjustable_quantity: { enabled: true, minimum: 0, maximum: 1 },
         });
       }
@@ -117,6 +118,7 @@ async function createTestCheckoutSession(mainProductId, optionalProductIds) {
       cancel_url: 'https://example.com/cancel',
       invoice_creation: { enabled: true },
       discounts: promoId ? [{ promotion_code: promoId }] : [],
+      allow_promotion_codes: true,
       metadata: { main_product_id: mainProductId, main_key: mainKey, rabatt: rabatt || 'none' },
       shipping_address_collection: { allowed_countries: ['AT'] },
     });
@@ -136,16 +138,14 @@ async function testOptionalItemsMapping() {
   console.log(`📈 ${productIds.length} Hauptprodukte gefunden.`);
 
   for (const mainProductId of productIds) {
-    const optionalProductIds = optionalItemsMapTests[mainProductId];
-    console.log(`🔍 Teste Hauptprodukt ${mainProductId} mit ${optionalProductIds.length} optionalen Items...`);
-
+    console.log(`🔍 Teste Hauptprodukt ${mainProductId}...`);
     const mainProductData = await validateProductAndPrice(mainProductId);
     if (!mainProductData) {
       console.warn(`⚠️ Überspringe ${mainProductId}: Produkt oder Preis nicht verfügbar.`);
       continue;
     }
 
-    await createTestCheckoutSession(mainProductId, optionalProductIds);
+    await createTestCheckoutSession(mainProductId);
     await wait(500);
   }
 
