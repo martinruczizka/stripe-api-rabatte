@@ -66,7 +66,7 @@ export default async function handler(req, res) {
   try {
     console.log('Starting optional-create-sessionTest handler with query:', req.query);
     const stripe = new Stripe(process.env.STRIPE_SECRET_KEY_TEST, {
-      apiVersion: '2025-09-30.clover', // Clover-Version
+      apiVersion: '2025-09-30.clover',
     });
     const { kurs, rabatt } = req.query;
 
@@ -101,7 +101,6 @@ export default async function handler(req, res) {
           price: prices.data[0].id,
           quantity: 0, // True optional – nicht im Warenkorb
           adjustable_quantity: { enabled: true, minimum: 0, maximum: 1 },
-          custom_label: `Optional: ${KEYS_MAP[optProductId]}`,
         });
       }
     }
@@ -123,7 +122,7 @@ export default async function handler(req, res) {
         const promo = await stripe.promotionCodes.create({
           coupon: coupon.id,
           code: rabatt.toUpperCase(),
-          expires_at: Math.floor(new Date('2025-12-31T23:59:59Z').getTime() / 1000), // Verlängert für Tests
+          expires_at: Math.floor(new Date('2025-12-31T23:59:59Z').getTime() / 1000),
         });
         promoId = promo.id;
         console.log(`🕐 Neuer zeitbegrenzter Promotion Code erstellt: ${promo.code}`);
@@ -134,14 +133,14 @@ export default async function handler(req, res) {
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
       line_items: lineItems,
-      optional_items: optionalItems, // Neu: Optionale Items
+      optional_items: optionalItems,
       mode: 'payment',
       success_url: 'https://example.com/success?session_id={CHECKOUT_SESSION_ID}',
       cancel_url: 'https://example.com/cancel',
       invoice_creation: { enabled: true },
       discounts: promoId ? [{ promotion_code: promoId }] : [],
       metadata: { kurs, rabatt: rabatt || 'none' },
-      shipping_address_collection: { allowed_countries: ['AT'] }, // Österreich-fokussiert
+      shipping_address_collection: { allowed_countries: ['AT'] },
     });
     console.log(`Checkout session created: ${session.url}`);
 
