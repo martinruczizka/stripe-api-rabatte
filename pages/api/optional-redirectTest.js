@@ -99,9 +99,8 @@ export default async function handler(req, res) {
       if (prices.data.length > 0) {
         optionalItems.push({
           price: prices.data[0].id,
-          quantity: 0, // True optional
+          quantity: 0,
           adjustable_quantity: { enabled: true, minimum: 0, maximum: 1 },
-          custom_label: `Optional: ${KEYS_MAP[optProductId]}`,
         });
       }
     }
