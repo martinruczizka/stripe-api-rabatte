@@ -5,6 +5,9 @@
   "type": "module",
   "main": "src/listProducts.js",
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "list": "node src/listProducts.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,7 +25,10 @@
     "dotenv": "^17.2.3",
     "exceljs": "^4.4.0",
     "googleapis": "^161.0.0",
+    "next": "^15.5.4",
     "node-fetch": "^3.3.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "stripe": "^19.1.0"
   }
 }
