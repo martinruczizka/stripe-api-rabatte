@@ -65,20 +65,20 @@ const PRICE_MAP = {
 export default async function handler(req, res) {
   try {
     console.log('Starting optional-redirectTest handler with query:', req.query);
-    const stripe = new Stripe(process.env.STRIPE_SECRET_KEY_TEST, { apiVersion: '2024-06-20' });
+    const stripe = new Stripe(process.env.STRIPE_SECRET_KEY_TEST, {
+      apiVersion: '2025-09-30.clover',
+    });
     const { kurs, rabatt } = req.query;
 
     if (!kurs) {
       console.error('Missing kurs parameter');
-      res.status(400).json({ error: 'Fehlender Parameter ?kurs=' });
-      return;
+      return res.status(400).json({ error: 'Fehlender Parameter ?kurs=' });
     }
 
     const priceId = PRICE_MAP[kurs.toLowerCase()];
     if (!priceId) {
       console.error(`Unknown kurs: ${kurs}`);
-      res.status(404).json({ error: `Unbekannter Kurs: ${kurs}` });
-      return;
+      return res.status(404).json({ error: `Unbekannter Kurs: ${kurs}` });
     }
 
     console.log(`Found priceId: ${priceId} for kurs: ${kurs}`);
@@ -87,22 +87,25 @@ export default async function handler(req, res) {
     const optionalProductIds = optionalItemsMapTests[productId] || [];
     console.log(`Optional product IDs: ${optionalProductIds}`);
 
-    const lineItems = [
-      { price: priceId, quantity: 1 },
-    ];
+    // Hauptprodukt
+    const lineItems = [{ price: priceId, quantity: 1 }];
+
+    // Optionale Items
+    const optionalItems = [];
     for (const optProductId of optionalProductIds) {
       console.log(`Fetching price for optional product: ${optProductId}`);
       const prices = await stripe.prices.list({ product: optProductId, active: true, limit: 1 });
       console.log(`Price response for ${optProductId}:`, prices.data);
       if (prices.data.length > 0) {
-        lineItems.push({
+        optionalItems.push({
           price: prices.data[0].id,
-          quantity: 1,
-          adjustable_quantity: { enabled: true },
+          quantity: 0, // True optional
+          adjustable_quantity: { enabled: true, minimum: 0, maximum: 1 },
+          custom_label: `Optional: ${KEYS_MAP[optProductId]}`,
         });
       }
     }
-    console.log(`Line items (for optional):`, lineItems);
+    console.log(`Optional items:`, optionalItems);
 
     let promoId = null;
     if (rabatt) {
@@ -120,7 +123,7 @@ export default async function handler(req, res) {
         const promo = await stripe.promotionCodes.create({
           coupon: coupon.id,
           code: rabatt.toUpperCase(),
-          expires_at: Math.floor(new Date('2025-10-08T23:59:59Z').getTime() / 1000),
+          expires_at: Math.floor(new Date('2025-12-31T23:59:59Z').getTime() / 1000),
         });
         promoId = promo.id;
         console.log(`🕐 Neuer zeitbegrenzter Promotion Code erstellt: ${promo.code}`);
@@ -129,13 +132,16 @@ export default async function handler(req, res) {
 
     console.log(`Creating checkout session with priceId: ${priceId}, promoId: ${promoId}`);
     const session = await stripe.checkout.sessions.create({
+      payment_method_types: ['card'],
       line_items: lineItems,
+      optional_items: optionalItems,
       mode: 'payment',
       success_url: 'https://example.com/success?session_id={CHECKOUT_SESSION_ID}',
       cancel_url: 'https://example.com/cancel',
       invoice_creation: { enabled: true },
-      discounts: promoId ? [{ promotion_code: promoId }] : [], // Nur discounts verwenden
+      discounts: promoId ? [{ promotion_code: promoId }] : [],
       metadata: { kurs, rabatt: rabatt || 'none' },
+      shipping_address_collection: { allowed_countries: ['AT'] },
     });
     console.log(`Checkout session created: ${session.url}`);
 
