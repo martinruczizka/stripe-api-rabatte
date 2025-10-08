@@ -43,7 +43,7 @@ if (!stripeTestKey || !stripeTestKey.startsWith('sk_test_')) {
   process.exit(1);
 }
 
-const stripe = new Stripe(stripeTestKey, { apiVersion: '2024-06-20' });
+const stripe = new Stripe(stripeTestKey, { apiVersion: '2025-09-30.clover' });
 console.log(`🔑 Verwende Key: TEST`);
 
 const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
@@ -88,44 +88,43 @@ async function createTestCheckoutSession(mainProductId, optionalProductIds) {
         const promo = await stripe.promotionCodes.create({
           coupon: coupon.id,
           code: rabatt.toUpperCase(),
-          expires_at: Math.floor(new Date('2025-10-08T23:59:59Z').getTime() / 1000),
+          expires_at: Math.floor(new Date('2025-12-31T23:59:59Z').getTime() / 1000),
         });
         promoId = promo.id;
         console.log(`🕐 Neuer zeitbegrenzter Promotion Code erstellt: ${promo.code}`);
       }
     }
 
-    const lineItems = [
-      {
-        price: mainPriceId,
-        quantity: 1,
-      },
-    ];
+    const lineItems = [{ price: mainPriceId, quantity: 1 }];
+    const optionalItems = [];
     for (const optProductId of optionalProductIds) {
       const optProductData = await validateProductAndPrice(optProductId);
       if (optProductData) {
-        lineItems.push({
+        optionalItems.push({
           price: optProductData.priceId,
-          quantity: 1,
-          adjustable_quantity: { enabled: true },
+          quantity: 0,
+          adjustable_quantity: { enabled: true, minimum: 0, maximum: 1 },
         });
       }
     }
 
     const session = await stripe.checkout.sessions.create({
+      payment_method_types: ['card'],
       line_items: lineItems,
+      optional_items: optionalItems,
       mode: 'payment',
       success_url: 'https://example.com/success?session_id={CHECKOUT_SESSION_ID}',
       cancel_url: 'https://example.com/cancel',
       invoice_creation: { enabled: true },
-      discounts: promoId ? [{ promotion_code: promoId }] : [], // Nur discounts verwenden
+      discounts: promoId ? [{ promotion_code: promoId }] : [],
       metadata: { main_product_id: mainProductId, main_key: mainKey, rabatt: rabatt || 'none' },
+      shipping_address_collection: { allowed_countries: ['AT'] },
     });
 
     console.log(`✅ Test-Checkout-Session erstellt für ${mainProduct.name} (${mainProductId}, key: ${mainKey}):`);
     console.log(`   URL: ${session.url}`);
     console.log(`   Mit Rabatt: ${session.url}?rabatt=${rabatt}`);
-    console.log(`   Optionale Items: ${lineItems.length - 1} (${lineItems.slice(1).map(item => item.price).join(', ')})`);
+    console.log(`   Optionale Items: ${optionalItems.length} (${optionalItems.map(item => item.price).join(', ')})`);
   } catch (err) {
     console.error(`❌ Fehler bei Checkout-Session für ${mainProductId}: ${err.message}`);
   }
