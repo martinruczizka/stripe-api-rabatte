@@ -1,7 +1,0 @@
-git status        # zeigt Änderungen
-git add .         # staged Änderungen
-git commit -m "Backup vor Überschreiben"
-git push origin main
-git log
-git checkout <commit-id>
-git commit -am "Backup vor Update-Skript"

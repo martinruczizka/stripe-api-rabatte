@@ -1,3 +1,0 @@
-git add .
-git commit -m "Deine kurze Beschreibung"
-git push origin main

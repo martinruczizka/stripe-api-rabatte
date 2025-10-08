@@ -1,2 +1,0 @@
-node --env-file=.env src/listPrices.js
-node --env-file=.env src/listPrices.js > logs/stripe_output.txt
