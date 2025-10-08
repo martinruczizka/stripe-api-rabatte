@@ -65,7 +65,7 @@ const PRICE_MAP = {
 export default async function handler(req, res) {
   try {
     console.log('Starting optional-create-sessionTest handler with query:', req.query);
-    const stripe = new Stripe(process.env.STRIPE_SECRET_KEY_TEST, { apiVersion: '2025-03-31' });
+    const stripe = new Stripe(process.env.STRIPE_SECRET_KEY_TEST, { apiVersion: '2024-06-20' });
     const { kurs, rabatt } = req.query;
 
     if (!kurs) {
@@ -85,19 +85,22 @@ export default async function handler(req, res) {
     const optionalProductIds = optionalItemsMapTests[productId] || [];
     console.log(`Optional product IDs: ${optionalProductIds}`);
 
-    const optionalItems = [];
+    const lineItems = [
+      { price: priceId, quantity: 1 },
+    ];
     for (const optProductId of optionalProductIds) {
       console.log(`Fetching price for optional product: ${optProductId}`);
       const prices = await stripe.prices.list({ product: optProductId, active: true, limit: 1 });
       console.log(`Price response for ${optProductId}:`, prices.data);
       if (prices.data.length > 0) {
-        optionalItems.push({
+        lineItems.push({
           price: prices.data[0].id,
           quantity: 1,
+          adjustable_quantity: { enabled: true },
         });
       }
     }
-    console.log(`Optional items:`, optionalItems);
+    console.log(`Line items (for optional):`, lineItems);
 
     let promoId = null;
     if (rabatt) {
@@ -124,10 +127,7 @@ export default async function handler(req, res) {
 
     console.log(`Creating checkout session with priceId: ${priceId}, promoId: ${promoId}`);
     const session = await stripe.checkout.sessions.create({
-      line_items: [
-        { price: priceId, quantity: 1 },
-      ],
-      optional_items: optionalItems,
+      line_items: lineItems,
       mode: 'payment',
       success_url: 'https://example.com/success?session_id={CHECKOUT_SESSION_ID}',
       cancel_url: 'https://example.com/cancel',
