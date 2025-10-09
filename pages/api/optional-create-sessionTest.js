@@ -1,6 +1,4 @@
-// /workspaces/stripe-product-mapper/pages/api/optional-create-sessionTest.js
 import Stripe from 'stripe';
-import { optionalItemsMapTests } from '../../src/utils/optional-items-MapTests.js';
 
 const KEYS_MAP = {
   'prod_TBx6SiknnBM7SQ': 'aromaberater',
@@ -82,28 +80,9 @@ export default async function handler(req, res) {
     }
 
     console.log(`Found priceId: ${priceId} for kurs: ${kurs}`);
-    const productId = Object.keys(KEYS_MAP).find(id => KEYS_MAP[id] === kurs.toLowerCase());
-    console.log(`Found productId: ${productId}`);
-    const optionalProductIds = optionalItemsMapTests[productId] || [];
-    console.log(`Optional product IDs: ${optionalProductIds}`);
 
-    // Hauptprodukt
+    // Nur Hauptprodukt
     const lineItems = [{ price: priceId, quantity: 1 }];
-
-    // Optionale Items (max. 3 für UX und Performance)
-    const optionalItems = [];
-    for (const optProductId of optionalProductIds.slice(0, 3)) {
-      console.log(`Fetching price for optional product: ${optProductId}`);
-      const prices = await stripe.prices.list({ product: optProductId, active: true, limit: 1 });
-      console.log(`Price response for ${optProductId}:`, prices.data);
-      if (prices.data.length > 0) {
-        optionalItems.push({
-          price: prices.data[0].id,
-          adjustable_quantity: { enabled: true, minimum: 0, maximum: 1 },
-        });
-      }
-    }
-    console.log(`Optional items:`, optionalItems);
 
     let promoId = null;
     if (rabatt) {
@@ -132,7 +111,6 @@ export default async function handler(req, res) {
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
       line_items: lineItems,
-      optional_items: optionalItems,
       mode: 'payment',
       success_url: 'https://example.com/success?session_id={CHECKOUT_SESSION_ID}',
       cancel_url: 'https://example.com/cancel',
