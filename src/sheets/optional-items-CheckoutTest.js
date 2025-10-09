@@ -1,7 +1,5 @@
-// /workspaces/stripe-product-mapper/src/sheets/optional-items-CheckoutTest.js
 import Stripe from 'stripe';
 import dotenv from 'dotenv';
-import { optionalItemsMapTests } from '../utils/optional-items-MapTests.js';
 
 dotenv.config();
 
@@ -74,7 +72,6 @@ async function createTestCheckoutSession(mainProductId) {
     }
     const { product: mainProduct, priceId: mainPriceId, key: mainKey } = mainProductData;
     const rabatt = 'dasisteinebeispielaktion';
-    const optionalProductIds = optionalItemsMapTests[mainProductId] || [];
 
     let promoId = null;
     if (rabatt) {
@@ -96,22 +93,11 @@ async function createTestCheckoutSession(mainProductId) {
       }
     }
 
-    const lineItems = [{ price: mainPriceId, quantity: 1 }];
-    const optionalItems = [];
-    for (const optProductId of optionalProductIds.slice(0, 3)) {
-      const optProductData = await validateProductAndPrice(optProductId);
-      if (optProductData) {
-        optionalItems.push({
-          price: optProductData.priceId,
-          adjustable_quantity: { enabled: true, minimum: 0, maximum: 1 },
-        });
-      }
-    }
+    const lineItems = [{ price: mainPriceId, quantity: 1 }]; // Nur Hauptprodukt
 
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
       line_items: lineItems,
-      optional_items: optionalItems,
       mode: 'payment',
       success_url: 'https://example.com/success?session_id={CHECKOUT_SESSION_ID}',
       cancel_url: 'https://example.com/cancel',
@@ -124,15 +110,14 @@ async function createTestCheckoutSession(mainProductId) {
     console.log(`✅ Test-Checkout-Session erstellt für ${mainProduct.name} (${mainProductId}, key: ${mainKey}):`);
     console.log(`   URL: ${session.url}`);
     console.log(`   Mit Rabatt: ${session.url}?rabatt=${rabatt}`);
-    console.log(`   Optionale Items: ${optionalItems.length} (${optionalItems.map(item => item.price).join(', ')})`);
   } catch (err) {
     console.error(`❌ Fehler bei Checkout-Session für ${mainProductId}: ${err.message}`);
   }
 }
 
 async function testOptionalItemsMapping() {
-  console.log('📋 Teste optionalItemsMapTests...');
-  const productIds = Object.keys(optionalItemsMapTests);
+  console.log('📋 Teste Hauptprodukte...');
+  const productIds = Object.keys(KEYS_MAP);
   console.log(`📈 ${productIds.length} Hauptprodukte gefunden.`);
 
   for (const mainProductId of productIds) {
