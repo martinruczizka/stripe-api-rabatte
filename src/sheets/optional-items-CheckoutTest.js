@@ -102,7 +102,7 @@ async function createTestCheckoutSession(mainProductId) {
       success_url: 'https://example.com/success?session_id={CHECKOUT_SESSION_ID}',
       cancel_url: 'https://example.com/cancel',
       invoice_creation: { enabled: true },
-      discounts: promoId ? [{ promotion_code: promoId }] : [],
+      discounts: promoId ? [{ promotion_code: promoId }] : [], // Nur promotion_code, kein coupon
       metadata: { main_product_id: mainProductId, main_key: mainKey, rabatt: rabatt || 'none' },
       shipping_address_collection: { allowed_countries: ['AT'] },
     });
