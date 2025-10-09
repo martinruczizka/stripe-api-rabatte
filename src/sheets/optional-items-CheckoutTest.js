@@ -1,5 +1,7 @@
+// /workspaces/stripe-product-mapper/src/sheets/optional-items-CheckoutTest.js
 import Stripe from 'stripe';
 import dotenv from 'dotenv';
+import { optionalItemsMapTests } from '../utils/optional-items-MapTests.js';
 
 dotenv.config();
 
@@ -41,7 +43,7 @@ if (!stripeTestKey || !stripeTestKey.startsWith('sk_test_')) {
   process.exit(1);
 }
 
-const stripe = new Stripe(stripeTestKey, { apiVersion: '2025-09-30.clover' });
+const stripe = new Stripe(stripeTestKey, { apiVersion: '2024-06-20' });
 console.log(`🔑 Verwende Key: TEST`);
 
 const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
@@ -63,7 +65,7 @@ async function validateProductAndPrice(productId) {
   }
 }
 
-async function createTestCheckoutSession(mainProductId) {
+async function createTestCheckoutSession(mainProductId, optionalProductIds) {
   try {
     const mainProductData = await validateProductAndPrice(mainProductId);
     if (!mainProductData) {
@@ -86,49 +88,66 @@ async function createTestCheckoutSession(mainProductId) {
         const promo = await stripe.promotionCodes.create({
           coupon: coupon.id,
           code: rabatt.toUpperCase(),
-          expires_at: Math.floor(new Date('2025-12-31T23:59:59Z').getTime() / 1000),
+          expires_at: Math.floor(new Date('2025-10-08T23:59:59Z').getTime() / 1000),
         });
         promoId = promo.id;
         console.log(`🕐 Neuer zeitbegrenzter Promotion Code erstellt: ${promo.code}`);
       }
     }
 
-    const lineItems = [{ price: mainPriceId, quantity: 1 }]; // Nur Hauptprodukt
+    const lineItems = [
+      {
+        price: mainPriceId,
+        quantity: 1,
+      },
+    ];
+    for (const optProductId of optionalProductIds) {
+      const optProductData = await validateProductAndPrice(optProductId);
+      if (optProductData) {
+        lineItems.push({
+          price: optProductData.priceId,
+          quantity: 1,
+          adjustable_quantity: { enabled: true },
+        });
+      }
+    }
 
     const session = await stripe.checkout.sessions.create({
-      payment_method_types: ['card'],
       line_items: lineItems,
       mode: 'payment',
       success_url: 'https://example.com/success?session_id={CHECKOUT_SESSION_ID}',
       cancel_url: 'https://example.com/cancel',
       invoice_creation: { enabled: true },
-      discounts: promoId ? [{ promotion_code: promoId }] : [], // Nur promotion_code, kein coupon
+      discounts: promoId ? [{ promotion_code: promoId }] : undefined,
+      allow_promotion_codes: rabatt ? true : false,
       metadata: { main_product_id: mainProductId, main_key: mainKey, rabatt: rabatt || 'none' },
-      shipping_address_collection: { allowed_countries: ['AT'] },
     });
 
     console.log(`✅ Test-Checkout-Session erstellt für ${mainProduct.name} (${mainProductId}, key: ${mainKey}):`);
     console.log(`   URL: ${session.url}`);
     console.log(`   Mit Rabatt: ${session.url}?rabatt=${rabatt}`);
+    console.log(`   Optionale Items: ${lineItems.length - 1} (${lineItems.slice(1).map(item => item.price).join(', ')})`);
   } catch (err) {
     console.error(`❌ Fehler bei Checkout-Session für ${mainProductId}: ${err.message}`);
   }
 }
 
 async function testOptionalItemsMapping() {
-  console.log('📋 Teste Hauptprodukte...');
-  const productIds = Object.keys(KEYS_MAP);
+  console.log('📋 Teste optionalItemsMapTests...');
+  const productIds = Object.keys(optionalItemsMapTests);
   console.log(`📈 ${productIds.length} Hauptprodukte gefunden.`);
 
   for (const mainProductId of productIds) {
-    console.log(`🔍 Teste Hauptprodukt ${mainProductId}...`);
+    const optionalProductIds = optionalItemsMapTests[mainProductId];
+    console.log(`🔍 Teste Hauptprodukt ${mainProductId} mit ${optionalProductIds.length} optionalen Items...`);
+
     const mainProductData = await validateProductAndPrice(mainProductId);
     if (!mainProductData) {
       console.warn(`⚠️ Überspringe ${mainProductId}: Produkt oder Preis nicht verfügbar.`);
       continue;
     }
 
-    await createTestCheckoutSession(mainProductId);
+    await createTestCheckoutSession(mainProductId, optionalProductIds);
     await wait(500);
   }
 
